@@ -1,0 +1,149 @@
+{
+ "semantic_scholar": {
+  "A0": {
+   "query": "(arXiv | bioRxiv | medRxiv | SSRN | \"preprint server\" | \"preprint servers\" | \"preprint repository\" | \"preprint repositories\") + (scientometric | scientometrics | bibliometric | bibliometrics | \"submission patterns\" | submissions | \"publication rate\" | \"citation advantage\" | \"peer-reviewed publication\" | \"subsequently published\" | \"growth\")",
+   "total_reported": 1374,
+   "fetched": 1374
+  },
+  "A1": {
+   "query": "(preprints | preprint | \"e-prints\" | eprints) + (scientometric | scientometrics | bibliometric | bibliometrics | \"citation advantage\" | \"subsequent publication\" | \"publication fate\" | \"subsequently published\")",
+   "total_reported": 295,
+   "fetched": 295
+  },
+  "B0": {
+   "query": "(\"review articles\" | \"review papers\" | \"survey papers\" | \"literature reviews\" | \"systematic reviews\" | \"meta-analyses\") + (proliferation | inflation | \"mass production\" | redundant | overlapping | \"too many\" | \"increasing number\" | \"growth in the number\" | \"research waste\" | \"number of reviews\" | \"number of systematic reviews\") + (bibliometric | scientometric | scientometrics | \"meta-research\" | \"research waste\" | \"publication trends\" | \"publications\")",
+   "total_reported": 4534,
+   "fetched": 4534
+  },
+  "B1": {
+   "query": "(\"review articles\" | \"review papers\" | \"survey papers\") + (\"citation impact\" | \"citation advantage\" | citations | \"highly cited\" | overcitation) + (bibliometric | scientometric | scientometrics | bibliometrics)",
+   "total_reported": 1163,
+   "fetched": 1163
+  },
+  "B2": {
+   "query": "(\"survey generation\" | \"automated literature review\" | \"automatic literature review\" | \"literature review generation\" | AutoSurvey | \"automated survey\" | \"scientific survey\") + (\"large language models\" | \"large language model\" | LLM | LLMs)",
+   "total_reported": 79,
+   "fetched": 79
+  },
+  "C0": {
+   "query": "(\"large language model\" | \"large language models\" | LLM | LLMs | ChatGPT | \"generative AI\" | \"AI-generated\" | \"machine-generated\" | \"AI-assisted\" | \"LLM-generated\" | \"LLM-assisted\") + (\"scientific writing\" | \"academic writing\" | \"scientific papers\" | \"scholarly\" | \"scientific abstracts\" | \"peer review\" | \"peer reviews\" | manuscripts | preprints | arXiv | \"research papers\" | \"scientific publications\") + (detection | detect | detecting | prevalence | \"excess vocabulary\" | \"word frequency\" | \"increasing use\" | estimate | estimating | \"stylistic\" | \"linguistic markers\")",
+   "total_reported": 1625,
+   "fetched": 1625
+  },
+  "D0": {
+   "query": "(journal | journals | \"preprint server\" | arXiv | bioRxiv | conference | conferences) + (\"policy change\" | \"editorial policy\" | \"policy changes\" | \"editorial policies\" | moderation | \"submission policy\" | \"submission fee\" | \"submission fees\" | \"desk rejection\" | \"preprint policy\" | \"new policy\") + (submissions | \"submission rates\" | \"number of submissions\" | \"interrupted time series\" | \"difference-in-differences\" | \"before and after\" | \"submission behavior\" | \"submission behaviour\")",
+   "total_reported": 975,
+   "fetched": 975
+  },
+  "D1": {
+   "query": "(arXiv | \"preprint server\" | \"preprint servers\" | bioRxiv | medRxiv) + (moderation | endorsement | screening | policy | policies | \"position papers\" | \"review articles\")",
+   "total_reported": 1057,
+   "fetched": 1057
+  }
+ },
+ "crossref": {
+  "A0": {
+   "query": "arXiv submissions scientometric analysis growth",
+   "total_reported": 7082091,
+   "fetched": 600
+  },
+  "A1": {
+   "query": "preprint server bioRxiv medRxiv bibliometric analysis publication fate",
+   "total_reported": 6390813,
+   "fetched": 600
+  },
+  "A2": {
+   "query": "preprints subsequently published peer-reviewed journals citation advantage",
+   "total_reported": 695367,
+   "fetched": 600
+  },
+  "B0": {
+   "query": "growth of review articles number of reviews bibliometric",
+   "total_reported": 8589804,
+   "fetched": 600
+  },
+  "B1": {
+   "query": "mass production redundant systematic reviews meta-analyses",
+   "total_reported": 3899960,
+   "fetched": 600
+  },
+  "B2": {
+   "query": "review papers citation impact overrepresentation highly cited",
+   "total_reported": 8507890,
+   "fetched": 600
+  },
+  "B3": {
+   "query": "automatic survey generation large language models literature review",
+   "total_reported": 10555744,
+   "fetched": 600
+  },
+  "C0": {
+   "query": "LLM-generated text scientific papers prevalence detection",
+   "total_reported": 3780311,
+   "fetched": 600
+  },
+  "C1": {
+   "query": "ChatGPT academic writing excess vocabulary abstracts",
+   "total_reported": 1475601,
+   "fetched": 600
+  },
+  "C2": {
+   "query": "AI-generated content peer reviews conferences estimate",
+   "total_reported": 2706613,
+   "fetched": 600
+  },
+  "D0": {
+   "query": "editorial policy change effect on journal submissions interrupted time series",
+   "total_reported": 8629263,
+   "fetched": 600
+  },
+  "D1": {
+   "query": "arXiv moderation policy endorsement",
+   "total_reported": 1150456,
+   "fetched": 600
+  },
+  "D2": {
+   "query": "journal data sharing policy mandate effect submissions",
+   "total_reported": 6527053,
+   "fetched": 600
+  },
+  "D3": {
+   "query": "submission fee introduction journal submissions effect",
+   "total_reported": 3722294,
+   "fetched": 600
+  }
+ },
+ "acl_anthology": {
+  "anthology": {
+   "query": "local regex screen of the full ACL Anthology BibTeX export (same rules as screening)",
+   "total_reported": 131695,
+   "fetched": 126
+  }
+ },
+ "arxiv": {
+  "A0": {
+   "query": "cat:cs.DL AND (abs:arXiv OR abs:preprints) AND (abs:submissions OR abs:growth OR abs:scientometric OR abs:bibliometric)",
+   "total_reported": 57,
+   "fetched": 57
+  },
+  "C0": {
+   "query": "(abs:\"LLM-generated\" OR abs:\"AI-generated\" OR abs:ChatGPT OR abs:\"LLM-assisted\") AND (abs:\"scientific papers\" OR abs:\"academic writing\" OR abs:arXiv OR abs:\"peer reviews\") AND (abs:detection OR abs:prevalence OR abs:vocabulary)",
+   "total_reported": 67,
+   "fetched": 67
+  },
+  "sibling_s2_files": {
+   "query": "Semantic Scholar hits already cached by the paper's own agent (read-only)",
+   "total_reported": 29,
+   "fetched": 29
+  }
+ },
+ "dblp": {
+  "probe": {
+   "query": "romanized hindi",
+   "total_reported": null,
+   "fetched": 0,
+   "status": "HTTP 202; body starts: '<!doctype html><html lang=\"en\"><head><title>Making sure you&#39;re not a bot!</title><link'",
+   "usable": false
+  }
+ }
+}

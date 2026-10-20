@@ -1,0 +1,15 @@
+"name","group","label","slice","color","id","sum","freq"
+"citation analysis","1994-2020","citation analysis--1994-2020","1","#984EA380",0,0.0272108843537415,19
+"editorial policy","1994-2020","editorial policy--1994-2020","1","#FF7F0080",1,0.0612244897959184,183
+"peer review","1994-2020","peer review--1994-2020","1","#E41A1C80",2,0.481292517006803,463
+"systematic reviews","1994-2020","systematic reviews--1994-2020","1","#A6562880",3,0.423469387755102,450
+"umbrella review","1994-2020","umbrella review--1994-2020","1","#F781BF80",4,0.00680272108843537,12
+"large language models","2021-2024","large language models--2021-2024","2","#377EB880",5,0.354725787631272,894
+"machine learning","2021-2024","machine learning--2021-2024","2","#66C2A580",6,0.0245040840140023,86
+"peer review","2021-2024","peer review--2021-2024","2","#E41A1C80",7,0.33022170361727,560
+"research waste","2021-2024","research waste--2021-2024","2","#4DAF4A80",8,0.290548424737456,493
+"chatgpt","2025-2026","chatgpt--2025-2026","3","#FC8D6280",9,0.242709313264346,791
+"generative ai","2025-2026","generative ai--2025-2026","3","#8DA0CB80",10,0.198494825964252,569
+"large language models","2025-2026","large language models--2025-2026","3","#377EB880",11,0.285983066792098,1122
+"research waste","2025-2026","research waste--2025-2026","3","#4DAF4A80",12,0.136406396989652,267
+"scholarly communication","2025-2026","scholarly communication--2025-2026","3","#E41A1C80",13,0.136406396989652,213

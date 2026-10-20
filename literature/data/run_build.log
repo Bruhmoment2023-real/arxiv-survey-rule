@@ -1,0 +1,4 @@
+[openalex enrich] 1678 keys, 1499 to fetch
+[openalex enrich] 500/1499
+[openalex enrich] 1000/1499
+{"final_corpus": 1623, "manual_exclusions": 0, "with_abstract": 1565, "with_reference_list": 936, "with_openalex_record": 1599, "with_institution": 1344, "with_country": 1337, "with_openalex_keywords": 1590, "with_doi": 1556, "with_arxiv_id": 279, "with_acl_id": 75, "with_dblp_key": 342, "preprint_only": 105, "records_with_preprint_and_published_version_merged": 100, "reference_links": 39712, "reference_links_in_corpus": 1749, "by_primary_sublit": {"C": 814, "B": 473, "seed": 9, "D": 156, "A": 171}, "by_sublit_nonexclusive": {"C": 816, "B": 491, "A": 191, "D": 156}, "by_doc_type": {"review": 1068, "article": 334, "preprint": 105, "conference paper": 85, "other": 13, "book": 2, "conference-paper": 8, "peer-review": 4, "book-chapter": 1, "editorial": 3}, "date_built_utc": "2026-10-16 21:03"}

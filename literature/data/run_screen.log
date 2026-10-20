@@ -1,0 +1,12 @@
+[screen] 19781 records from all sources -> 17683 unique after key/title merge
+[openalex abstract fill] 3097 keys, 0 to fetch
+[screen] abstracts filled from OpenAlex: 1521 of 3097 records that lacked one
+[screen:main] included 1407, excluded 16276
+[s2 batch full] 40/1407
+[s2 batch full] 440/1407
+[s2 batch full] 840/1407
+[s2 batch full] 1240/1407
+[resolve:full] 1407 candidates -> 1407 unique records; 73 not found in Semantic Scholar
+[s2 batch seed] 12/12
+[seed] not found in Semantic Scholar: DOI:10.31222/osf.io/xs64q_v1
+{"records_identified_per_source": {"acl_anthology": 126, "arxiv": 124, "sibling_prior_work_search": 29, "crossref": 8400, "semantic_scholar": 11102}, "records_identified_total": 19781, "unique_after_merge": 17683, "duplicates_removed_stage1": 2098, "excluded_by_rule": 16276, "excluded_reasons": {"no sub-literature rule matched": 16276}, "included_before_version_merge": 1407, "version_duplicates_merged_by_s2_or_title": 0, "seeds_forced_in": 11, "after_screen": 1418, "not_in_semantic_scholar": 73}

@@ -1,0 +1,44 @@
+{
+ "final_corpus": 1483,
+ "manual_exclusions": 140,
+ "with_abstract": 1425,
+ "with_reference_list": 867,
+ "with_openalex_record": 1459,
+ "with_institution": 1226,
+ "with_country": 1219,
+ "with_openalex_keywords": 1451,
+ "with_doi": 1418,
+ "with_arxiv_id": 269,
+ "with_acl_id": 74,
+ "with_dblp_key": 330,
+ "preprint_only": 99,
+ "records_with_preprint_and_published_version_merged": 96,
+ "reference_links": 37274,
+ "reference_links_in_corpus": 1717,
+ "by_primary_sublit": {
+  "C": 680,
+  "B": 473,
+  "seed": 9,
+  "D": 150,
+  "A": 171
+ },
+ "by_sublit_nonexclusive": {
+  "C": 682,
+  "B": 491,
+  "A": 191,
+  "D": 150
+ },
+ "by_doc_type": {
+  "review": 982,
+  "article": 293,
+  "preprint": 99,
+  "conference paper": 79,
+  "other": 13,
+  "book": 1,
+  "conference-paper": 8,
+  "peer-review": 4,
+  "book-chapter": 1,
+  "editorial": 3
+ },
+ "date_built_utc": "2026-10-16 21:05"
+}

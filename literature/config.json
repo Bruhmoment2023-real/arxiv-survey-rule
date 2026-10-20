@@ -1,0 +1,294 @@
+{
+  "name": "09 arXiv survey rule: scientometrics of preprint servers, review inflation, LLM-written science, editorial/moderation policy effects",
+  "year_min": 1991,
+  "year_max": 2026,
+  "s2_fields_of_study": null,
+  "terms": {
+    "PRE": "\\b(arxiv|biorxiv|medrxiv|chemrxiv|ssrn|psyarxiv|socarxiv|osf preprints|research square|preprint servers?|preprint repositor\\w+|pre-?prints?|e-?prints?)\\b",
+    "PRES": "\\b(arxiv|biorxiv|medrxiv|chemrxiv|ssrn|preprint servers?|preprint repositor\\w+)\\b",
+    "SCI": "\\b(scientometric\\w*|bibliometric\\w*|informetric\\w*|meta-?research|meta-?science|science of science|citation (advantage|impact|counts?|analysis|rates?)|submission (rates?|patterns?|trends?|volume|behaviou?r)|number of submissions|growth|publication (rates?|fate|delay|outcomes?|status)|subsequently published|published in (a )?(peer-reviewed |scholarly )?journals?|longitudinal|large-scale (analysis|study)|quantitative (analysis|study)|altmetric\\w*|adoption of preprint\\w*)\\b",
+    "SCIS": "\\b(scientometric\\w*|bibliometric\\w*|informetric\\w*|meta-?research|citation advantage|publication fate|subsequently published|science of science|altmetric\\w*)\\b",
+    "REV": "(reviews?|review articles?|review papers?|systematic reviews?|meta-analyses|survey papers?|survey articles?|surveys|literature reviews?)",
+    "REVS": "(review articles?|review papers?|systematic reviews?|meta-analyses|survey papers?|survey articles?|literature reviews?|reviews)",
+    "STRONG": "\\b((number|numbers|proliferation|growth|increase|rise|inflation|mass production|flood|surge|explosion|epidemic|overproduction|glut|deluge) (of|in) (\\w+[ -]){0,3}{REVS}|(redundant|overlapping|duplicate|duplicated|unnecessary|too many|conflicted) (\\w+[ -]){0,2}{REVS}|research waste|review (article )?(inflation|proliferation))\\b",
+    "GEN": "\\b((ai|llm|machine|gpt|chatgpt)[- ](generated|assisted|written|modified|produced|authored)|(generated|written|assisted|produced) (by|with) (ai|llms?|chatgpt|large language models?|generative ai)|(use|usage|adoption|uptake|influence|impact|footprint|fingerprints?|traces?|prevalence) of (llms?|large language models?|chatgpt|generative ai|generative artificial intelligence|ai (writing )?tools?)|llm[- ]usage|chatgpt usage|paper mills?|fake papers?|tortured phrases|ai text detect\\w+|ai detectors?)\\b"
+  },
+  "sublits": {
+    "A": {
+      "label": "Scientometrics of preprint servers and arXiv",
+      "s2_queries": [
+        "(arXiv | bioRxiv | medRxiv | SSRN | \"preprint server\" | \"preprint servers\" | \"preprint repository\" | \"preprint repositories\") + (scientometric | scientometrics | bibliometric | bibliometrics | \"submission patterns\" | submissions | \"publication rate\" | \"citation advantage\" | \"peer-reviewed publication\" | \"subsequently published\" | \"growth\")",
+        "(preprints | preprint | \"e-prints\" | eprints) + (scientometric | scientometrics | bibliometric | bibliometrics | \"citation advantage\" | \"subsequent publication\" | \"publication fate\" | \"subsequently published\")"
+      ],
+      "arxiv_queries": [
+        "cat:cs.DL AND (abs:arXiv OR abs:preprints) AND (abs:submissions OR abs:growth OR abs:scientometric OR abs:bibliometric)"
+      ],
+      "crossref_queries": [
+        "arXiv submissions scientometric analysis growth",
+        "preprint server bioRxiv medRxiv bibliometric analysis publication fate",
+        "preprints subsequently published peer-reviewed journals citation advantage"
+      ],
+      "rule_any": [
+        [
+          "T:{PRE}",
+          "{SCI}"
+        ]
+      ]
+    },
+    "B": {
+      "label": "Growth of review and survey articles; review inflation; automated surveys",
+      "s2_queries": [
+        "(\"review articles\" | \"review papers\" | \"survey papers\" | \"literature reviews\" | \"systematic reviews\" | \"meta-analyses\") + (proliferation | inflation | \"mass production\" | redundant | overlapping | \"too many\" | \"increasing number\" | \"growth in the number\" | \"research waste\" | \"number of reviews\" | \"number of systematic reviews\") + (bibliometric | scientometric | scientometrics | \"meta-research\" | \"research waste\" | \"publication trends\" | \"publications\")",
+        "(\"review articles\" | \"review papers\" | \"survey papers\") + (\"citation impact\" | \"citation advantage\" | citations | \"highly cited\" | overcitation) + (bibliometric | scientometric | scientometrics | bibliometrics)",
+        "(\"survey generation\" | \"automated literature review\" | \"automatic literature review\" | \"literature review generation\" | AutoSurvey | \"automated survey\" | \"scientific survey\") + (\"large language models\" | \"large language model\" | LLM | LLMs)"
+      ],
+      "arxiv_queries": [],
+      "crossref_queries": [
+        "growth of review articles number of reviews bibliometric",
+        "mass production redundant systematic reviews meta-analyses",
+        "review papers citation impact overrepresentation highly cited",
+        "automatic survey generation large language models literature review"
+      ],
+      "rule_any": [
+        [
+          "{STRONG}",
+          "\\b(bibliometric\\w*|scientometric\\w*|meta-?research|meta-epidemiolog\\w+|research waste|publication (trends?|rates?)|pubmed|medline|published (between|from|in the)|journals?|arxiv)\\b",
+          "T:\\b(reviews?|meta-analys\\w+|surveys?)\\b"
+        ],
+        [
+          "T:\\b(review articles?|review papers?|survey papers?|review literature|reviews)\\b",
+          "\\b(bibliometric\\w*|scientometric\\w*|citation (impact|advantage|counts?|rates?)|highly cited|overcit\\w+|document types?)\\b",
+          "\\b(research articles?|original (research )?articles?|non-review|document types?|share of|proportion of|primary (research|studies))\\b"
+        ],
+        [
+          "\\b(survey generation|automat\\w+ (literature |scientific |academic )?(surveys?|reviews?)( generation| writing)?|autosurvey|literature review generation|(llm|ai|machine)-generated (surveys?|reviews?|survey papers?)|survey automation)\\b",
+          "\\b(llms?|large language models?|generative ai|chatgpt|gpt-?\\d\\w*)\\b"
+        ]
+      ]
+    },
+    "C": {
+      "label": "Detection and prevalence of LLM-generated or LLM-assisted scientific writing",
+      "s2_queries": [
+        "(\"large language model\" | \"large language models\" | LLM | LLMs | ChatGPT | \"generative AI\" | \"AI-generated\" | \"machine-generated\" | \"AI-assisted\" | \"LLM-generated\" | \"LLM-assisted\") + (\"scientific writing\" | \"academic writing\" | \"scientific papers\" | \"scholarly\" | \"scientific abstracts\" | \"peer review\" | \"peer reviews\" | manuscripts | preprints | arXiv | \"research papers\" | \"scientific publications\") + (detection | detect | detecting | prevalence | \"excess vocabulary\" | \"word frequency\" | \"increasing use\" | estimate | estimating | \"stylistic\" | \"linguistic markers\")"
+      ],
+      "arxiv_queries": [
+        "(abs:\"LLM-generated\" OR abs:\"AI-generated\" OR abs:ChatGPT OR abs:\"LLM-assisted\") AND (abs:\"scientific papers\" OR abs:\"academic writing\" OR abs:arXiv OR abs:\"peer reviews\") AND (abs:detection OR abs:prevalence OR abs:vocabulary)"
+      ],
+      "crossref_queries": [
+        "LLM-generated text scientific papers prevalence detection",
+        "ChatGPT academic writing excess vocabulary abstracts",
+        "AI-generated content peer reviews conferences estimate"
+      ],
+      "rule": [
+        "{GEN}",
+        "\\b(scientific (writing|papers?|publications?|abstracts?|literature|articles?|manuscripts?|publishing)|academic (writing|papers?|publishing|abstracts?|publications?|literature|articles?)|scholarly (writing|publishing|communication|articles?|literature|publications?)|peer[- ]reviews?|manuscripts?|preprints?|arxiv|research (papers?|articles?)|journal articles?|biomedical (abstracts|publications|literature)|pubmed)\\b",
+        "\\b(detect\\w*|prevalence|excess (vocabulary|words?)|word frequenc\\w+|increasing use|stylistic|stylometr\\w+|linguistic (markers?|shifts?|features|patterns?|signatures?)|lexical|delve|quantif\\w+|proportion of|fraction of|share of|widespread|undisclosed|disclos\\w+)\\b"
+      ]
+    },
+    "D": {
+      "label": "Effects of editorial and moderation policy changes on submissions",
+      "s2_queries": [
+        "(journal | journals | \"preprint server\" | arXiv | bioRxiv | conference | conferences) + (\"policy change\" | \"editorial policy\" | \"policy changes\" | \"editorial policies\" | moderation | \"submission policy\" | \"submission fee\" | \"submission fees\" | \"desk rejection\" | \"preprint policy\" | \"new policy\") + (submissions | \"submission rates\" | \"number of submissions\" | \"interrupted time series\" | \"difference-in-differences\" | \"before and after\" | \"submission behavior\" | \"submission behaviour\")",
+        "(arXiv | \"preprint server\" | \"preprint servers\" | bioRxiv | medRxiv) + (moderation | endorsement | screening | policy | policies | \"position papers\" | \"review articles\")"
+      ],
+      "arxiv_queries": [],
+      "crossref_queries": [
+        "editorial policy change effect on journal submissions interrupted time series",
+        "arXiv moderation policy endorsement",
+        "journal data sharing policy mandate effect submissions",
+        "submission fee introduction journal submissions effect"
+      ],
+      "rule_any": [
+        [
+          "\\b(editorial polic\\w+|polic(y|ies) changes?|change in polic\\w+|new polic\\w+|journal polic\\w+|moderation|submission (polic\\w+|fees?|requirements?|guidelines|caps?|limits?)|desk[- ]reject\\w*|mandat\\w+|preprint polic\\w+|endorsement|data[- ]sharing polic\\w+|data availability polic\\w+|open[- ]access polic\\w+|pre-?registration requirement|registered reports?|reporting guidelines?|ban(ned|s)?)\\b",
+          "\\b(submissions?|submitted (manuscripts|papers|articles)|manuscripts? received|submission (rates?|volume|numbers?))\\b",
+          "\\b(interrupted time series|difference-in-differences?|before and after|pre- and post-|pre/post|natural experiment|effects? of|impact of|changes? in|declin\\w+|increas\\w+|decreas\\w+|drop\\w*|compliance)\\b",
+          "\\b(journals?|preprint servers?|arxiv|biorxiv|medrxiv|conferences?|editors?|editorial)\\b",
+          "T:\\b(polic\\w+|editorial\\w*|moderat\\w+|mandat\\w+|submission\\w*|fees?|guidelines?|requirements?|ban\\w*|desk|endorsement|registered reports?|preprints?|arxiv)\\b"
+        ],
+        [
+          "T:{PRES}",
+          "\\b(moderat\\w+|endorsement|screening|polic(y|ies)|rejection|reclassif\\w+|withdraw\\w+|retract\\w+|quality control|position papers?|review articles?)\\b"
+        ]
+      ]
+    }
+  },
+  "exclude_title_regex": [
+    "^(proceedings|front matter|preface|table of contents|author index|program committee|erratum|correction)"
+  ],
+  "exclude_text_regex": [],
+  "exclude_note": "E1 front matter / errata only",
+  "exclude_unless_sublit": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "seeds": [
+    "ARXIV:2601.17036",
+    "ARXIV:2510.09686",
+    "ARXIV:2404.01268",
+    "DOI:10.1038/s41562-025-02273-8",
+    "DOI:10.1126/sciadv.adt3813",
+    "DOI:10.1126/science.adw3000",
+    "DOI:10.1007/s11192-026-05805-9",
+    "DOI:10.31222/osf.io/xs64q_v1",
+    "ARXIV:2406.10252",
+    "ARXIV:2502.14776",
+    "DOI:10.1111/1468-0009.12210",
+    "DOI:10.1111/1468-0009.12211",
+    "DOI:10.1007/s11192-020-03431-7",
+    "DOI:10.1007/s11192-023-04654-0",
+    "DOI:10.1016/j.joi.2018.08.006",
+    "ARXIV:2308.04889",
+    "ARXIV:2312.05688",
+    "DOI:10.1016/j.joi.2023.101433",
+    "DOI:10.1002/asi.23044",
+    "DOI:10.1371/journal.pbio.3000959",
+    "DOI:10.1093/ije/dyw098",
+    "DOI:10.1046/j.1365-2710.2002.00430.x",
+    "DOI:10.1093/oso/9780190943943.001.0001"
+  ],
+  "sibling_s2_json_dir": "D:/Research-Publishing/09-arxiv-survey-rule/data/priorwork",
+  "acl": true,
+  "snowball_n_central": 25,
+  "primary_sublit_priority": [
+    "D",
+    "C",
+    "B",
+    "A"
+  ],
+  "arxiv_cap": 400,
+  "heatmap": {
+    "title": "Preprint servers and venues by theme: documents mentioning both (title or abstract)",
+    "row_title": "Server, database or venue named",
+    "col_title": "Theme named",
+    "caution": "Mention is not focus: a paper that names arXiv once in passing counts the same as a study of arXiv, and only title and abstract are read.",
+    "rows": {
+      "arXiv": "\\barxiv\\b",
+      "bioRxiv": "\\bbiorxiv\\b",
+      "medRxiv": "\\bmedrxiv\\b",
+      "SSRN": "\\bssrn\\b",
+      "ChemRxiv": "\\bchemrxiv\\b",
+      "OSF / PsyArXiv / SocArXiv": "\\b(osf|psyarxiv|socarxiv)\\b",
+      "Research Square": "\\bresearch square\\b",
+      "Preprints (generic word)": "\\bpre-?prints?\\b",
+      "PubMed / MEDLINE": "\\b(pubmed|medline)\\b",
+      "Web of Science / Scopus": "\\b(web of science|scopus)\\b",
+      "ML conferences (NeurIPS, ICLR, ICML, ACL, EMNLP)": "\\b(neurips|iclr|icml|acl|emnlp|openreview)\\b",
+      "Journals (generic word)": "\\bjournals?\\b"
+    },
+    "cols": {
+      "Growth / volume of output": "\\b(growth|increas\\w+ (number|volume)|number of (submissions|papers|preprints|publications)|surge|exponential)\\b",
+      "Submissions": "\\bsubmi(ssions?|tted)\\b",
+      "Citation advantage / impact": "\\bcitation\\w*\\b",
+      "Publication fate (preprint to journal)": "\\b(subsequently published|publication fate|published in (a )?(peer-reviewed |scholarly )?journals?|preprint-publication|journal of record)\\b",
+      "Moderation / policy / rules": "\\b(moderat\\w+|polic(y|ies)|endorsement|screening|mandat\\w+|guidelines?|ban(ned|s)?)\\b",
+      "Peer review": "\\bpeer[- ]review\\w*\\b",
+      "LLM / AI-generated text": "\\b(llms?|large language models?|chatgpt|generative ai|ai-generated|machine-generated)\\b",
+      "Review / survey articles": "\\b(review articles?|review papers?|survey papers?|systematic reviews?|literature reviews?|meta-analyses)\\b",
+      "COVID-19": "\\b(covid\\w*|sars-cov-2|pandemic)\\b",
+      "Interrupted time series / causal design": "\\b(interrupted time series|difference-in-differences?|natural experiment|regression discontinuity|before and after)\\b",
+      "Open access / open science": "\\bopen (access|science)\\b",
+      "Gender / geography / equity": "\\b(gender|women|countries|geograph\\w+|equit\\w+|inequal\\w+)\\b"
+    }
+  },
+  "relevance": [
+    {
+      "re": "\\barxiv\\b",
+      "w": 3
+    },
+    {
+      "re": "\\b(survey papers?|review articles?|review papers?|position papers?)\\b",
+      "w": 2.5
+    },
+    {
+      "re": "\\b(polic(y|ies)|moderat\\w+|endorsement|ban(ned|s)?|mandat\\w+)\\b",
+      "w": 2.5
+    },
+    {
+      "re": "\\b((llm|ai|machine)-generated|llm-assisted|ai-assisted|excess vocabulary)\\b",
+      "w": 2
+    },
+    {
+      "re": "\\b(interrupted time series|difference-in-differences?|before and after|natural experiment)\\b",
+      "w": 2.5
+    },
+    {
+      "re": "\\bsubmissions?\\b",
+      "w": 1.5
+    },
+    {
+      "re": "\\bpre-?prints?\\b",
+      "w": 1
+    },
+    {
+      "re": "\\bcomputer science\\b",
+      "w": 1.5
+    },
+    {
+      "re": "\\b(prevalence|growth|proliferation|mass production|flood)\\b",
+      "w": 1
+    }
+  ],
+  "evidence_data_label": "servers_or_data_named",
+  "evidence_models_label": "methods_named_in_abstract",
+  "data_terms": {
+    "arXiv": "\\barxiv\\b",
+    "bioRxiv": "\\bbiorxiv\\b",
+    "medRxiv": "\\bmedrxiv\\b",
+    "SSRN": "\\bssrn\\b",
+    "PubMed/MEDLINE": "\\b(pubmed|medline)\\b",
+    "Web of Science": "\\bweb of science\\b",
+    "Scopus": "\\bscopus\\b",
+    "OpenAlex": "\\bopenalex\\b",
+    "Crossref": "\\bcrossref\\b",
+    "Semantic Scholar": "\\bsemantic scholar\\b",
+    "Dimensions": "\\bdimensions\\b",
+    "OpenReview / ML conferences": "\\b(openreview|neurips|iclr|icml|emnlp)\\b",
+    "Nature portfolio": "\\bnature (portfolio|journals)\\b"
+  },
+  "model_terms": {
+    "interrupted time series": "\\binterrupted time series\\b",
+    "difference-in-differences": "\\bdifference-in-differences?\\b",
+    "regression": "\\bregression\\b",
+    "AI-text detector / classifier": "\\b(detectors?|classifier\\w*|gptzero|detectgpt|zerogpt|turnitin)\\b",
+    "word-frequency / excess vocabulary": "\\b(word frequenc\\w+|excess (vocabulary|words?)|vocabulary|lexical)\\b",
+    "population-level estimate": "\\b(population-level|distributional|maximum likelihood|mixture)\\b",
+    "survey / questionnaire": "\\b(questionnaire|survey of (authors|researchers|editors)|respondents)\\b",
+    "bibliometric / scientometric analysis": "\\b(bibliometric\\w*|scientometric\\w*)\\b",
+    "LLM generation pipeline": "\\b(retrieval-augmented|multi-agent|pipeline|outline)\\b"
+  },
+  "evidence_n": 50,
+  "pdf_n": 28,
+  "main_path_key_routes": 8,
+  "seed_bonus": 6,
+  "openalex_search": [
+    {
+      "tag": "D_policy",
+      "search": "(arXiv OR \"preprint server\" OR journal) AND (\"policy change\" OR \"editorial policy\" OR moderation) AND (submissions) AND (\"interrupted time series\" OR \"before and after\" OR \"difference-in-differences\" OR effect)",
+      "filter": "from_publication_date:1991-01-01"
+    },
+    {
+      "tag": "A_arxiv_scientometrics",
+      "search": "(arXiv OR bioRxiv OR medRxiv OR \"preprint server\") AND (scientometric OR bibliometric OR \"submission patterns\" OR \"citation advantage\" OR \"subsequently published\")",
+      "filter": "from_publication_date:1991-01-01"
+    },
+    {
+      "tag": "C_llm_writing",
+      "search": "(\"LLM-generated\" OR \"AI-generated\" OR ChatGPT OR \"large language models\") AND (\"scientific papers\" OR \"academic writing\" OR \"scientific writing\" OR \"peer reviews\") AND (prevalence OR \"excess vocabulary\" OR detection)",
+      "filter": "from_publication_date:2022-01-01"
+    }
+  ],
+  "protocol_databases": [
+    "Semantic Scholar Graph API bulk search (free, no key): primary discovery source; also supplies reference lists for citation networks and snowballing.",
+    "Crossref REST API (free): relevance-ranked free-text discovery and DOI metadata.",
+    "OpenAlex (free, keyless): used for single-work lookups by DOI (institutions, countries, keywords, topics, citation counts) and for filling missing abstracts. OpenAlex list/search requests were refused for budget on 2026-10-13 (anonymous quota shared by the network address was spent), so OpenAlex was NOT used as the discovery search for this paper; this is a coverage limit stated in README.md. All OpenAlex requests were slow, cached and carry no personal identifier.",
+    "ACL Anthology BibTeX export and arXiv API (cs.DL and related queries), screened locally. DBLP returned an anti-bot challenge page (HTTP 202) and was skipped; no attempt was made to evade it.",
+    "Scopus and Web of Science: no access here; ready-to-paste strings are in scopus-queries.md and bibliometrics/scopus-drop/ is empty."
+  ],
+  "policy": {
+    "date": "2025-10-31",
+    "label": "arXiv CS review / position-paper rule, 31 Oct 2025"
+  }
+}

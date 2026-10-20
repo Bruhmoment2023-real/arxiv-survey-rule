@@ -1,0 +1,41 @@
+"item","freq","year_q1","year_med","year_q3"
+"e-prints",5,2007,2013,2014
+"mathematics",6,2013,2016,2020
+"amstar",17,2016,2017,2020
+"conflict of interest disclosure",8,2012,2017,2020
+"manuscript submission",12,2014,2018,2021
+"research priorities",11,2018,2018,2020
+"research bias",6,2016,2018,2021
+"cochrane database of systematic reviews",5,2017,2018,2021
+"prisma",21,2017,2019,2022
+"evidence-based medicine",17,2016,2019,2024
+"conflicts of interest",14,2017,2019,2025
+"impact factor",14,2012,2019,2022
+"meta-analysis",69,2017,2020,2023
+"editorial policy",47,2012,2020,2025
+"publication bias",34,2017,2020,2024
+"open access",24,2016,2020,2024
+"systematic reviews",98,2017,2021,2024
+"preprint servers",92,2019,2021,2024
+"biorxiv",54,2020,2021,2023
+"reporting quality",49,2017,2021,2024
+"research waste",126,2019,2022,2024
+"preprints",123,2020,2022,2024
+"arxiv",67,2017,2022,2025
+"covid-19 pandemic",55,2021,2022,2023
+"scholarly communication",86,2019,2023,2025
+"research transparency",33,2021,2023,2025
+"research dissemination",29,2021,2023,2025
+"research evaluation",14,2020,2023,2026
+"peer review",201,2021,2024,2025
+"scholarly publishing",103,2021,2024,2025
+"reproducibility",36,2023,2024,2026
+"open science",25,2021,2024,2025
+"large language models",398,2024,2025,2026
+"chatgpt",220,2024,2025,2026
+"ai-generated text detection",150,2024,2025,2026
+"academic integrity",113,2025,2025,2026
+"generative ai",124,2025,2026,2026
+"ai-assisted writing",57,2025,2026,2026
+"algorithmic bias",19,2025,2026,2026
+"gemini",19,2025,2026,2026

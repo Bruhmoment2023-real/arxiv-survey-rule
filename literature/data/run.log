@@ -1,0 +1,11 @@
+[screen] 19781 records from all sources -> 17683 unique after key/title merge
+[openalex abstract fill] 3097 keys, 3097 to fetch
+[openalex abstract fill] 500/3097
+[openalex abstract fill] 1000/3097
+[openalex abstract fill] 1500/3097
+[openalex abstract fill] 2000/3097
+[openalex abstract fill] 2500/3097
+[openalex abstract fill] 3000/3097
+[screen] abstracts filled from OpenAlex: 1521 of 3097 records that lacked one
+[screen:main] included 1407, excluded 16276
+[s2 batch full] 40/1407

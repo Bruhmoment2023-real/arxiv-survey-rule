@@ -1,0 +1,40 @@
+key,id,period,stratum,rules,label,type,note
+L004,2409.18360,pre,strict,A_self+A_weak,N,strict false positive,
+L009,2609.10099,post,strict,A_self,M,strict false positive,systematic evaluation + review repo; benchmark results -> mixed
+L010,2601.22769,post,neither,,P,strict miss,conceptual/normative proposal with use-cases; borderline P vs N
+L021,2306.10687,pre,neither,,S,strict miss,
+L035,2507.10835,pre,strict,A_position+A_weak,N,strict false positive,
+L047,2606.10749,post,broad_only,A_weak,S,strict miss,survey/SoK of LLM-agent security that also 'argues'; S
+L050,2608.08106,post,strict,T_survey,N,strict false positive,
+L051,2607.21503,post,broad_only,A_weak,P,strict miss,industry-style argument paper; borderline P vs N
+L059,2401.14831,pre,broad_only,A_weak,P,strict miss,"argues for a testing view, then sketches an approach; borderline P vs N"
+L061,2601.23112,post,broad_only,T_weak+A_weak,S,strict miss,review of 210 benchmarks that also argues; S
+L076,2607.21005,post,strict,A_position+A_weak,N,strict false positive,
+L078,2303.04957,pre,strict,A_self,N,strict false positive,
+L081,2405.03345,pre,neither,,P,strict miss,conceptual proposal (FAIR 2.0); borderline P vs N
+L084,2512.11143,post,strict,A_self,M,strict false positive,systematic review + new system with results -> mixed
+L099,2206.12051,pre,broad_only,A_weak,S,strict miss,literature-review-based conceptual paper; S
+L112,2507.19497,pre,broad_only,A_weak,P,strict miss,
+L136,2412.05265,pre,broad_only,T_weak,S,strict miss,book-length overview of RL; S (could be read as lecture notes)
+L163,2503.10894,pre,strict,A_self,N,strict false positive,
+L167,2503.04749,pre,broad_only,T_weak,S,strict miss,industry overview with a review; S
+L172,2604.16415,post,strict,T_survey,N,strict false positive,
+L198,2606.11189,post,strict,A_position+A_weak,N,strict false positive,
+L204,2202.12194,pre,broad_only,T_weak,P,strict miss,industrial viewpoint / vision article; P
+L208,2209.06804,pre,strict,T_survey+A_weak,N,strict false positive,
+L219,2606.10587,post,strict,A_position+A_weak,N,strict false positive,
+L239,2602.18948,post,strict,A_position+A_weak,N,strict false positive,
+L255,2605.16872,post,broad_only,T_weak,P,strict miss,
+L265,2303.05344,pre,broad_only,T_weak,S,strict miss,
+L270,2205.14040,pre,broad_only,T_weak,S,strict miss,"magazine-style overview (lessons learned, opportunities); S"
+L273,2601.23095,post,strict,T_survey,N,strict false positive,
+L295,2605.16895,post,broad_only,T_weak,P,strict miss,"position-style title, ships a reproduction harness; P"
+L301,2604.09674,post,broad_only,A_weak,P,strict miss,philosophy argument paper; P
+L302,2606.10894,post,strict,A_self+A_weak,N,strict false positive,
+L333,2406.05469,pre,strict,A_self,N,strict false positive,'reviews the argument' but contributes results; N
+L340,2607.21777,post,broad_only,A_weak,P,strict miss,
+L342,2604.02460,post,strict,A_position+A_weak,N,strict false positive,
+L361,2601.22708,post,strict,A_self+T_weak,M,strict false positive,taxonomy + review + codebase + empirical evaluation -> mixed
+L364,2211.14558,pre,strict,A_self,N,strict false positive,'we review ... using our benchmark' = evaluation; N
+L373,2606.11116,post,broad_only,T_weak,P,strict miss,argument built on an existing experiment; P
+L374,2305.15535,pre,broad_only,A_weak,S,strict miss,overview that derives research desiderata; S

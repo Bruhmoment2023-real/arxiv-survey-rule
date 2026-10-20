@@ -1,0 +1,33 @@
+Corpus: arXiv survey rule literature map (n = 1480 documents, 1994-2026). 
+[main information] 2.0s
+[annual production] 9.9s
+[average citations per year] 0.8s
+[most relevant sources] 0.6s
+[bradford] 2.3s
+[source dynamics] 1.8s
+[authors] 1.4s
+[lotka] 5.9s
+[authors production over time] 1.6s
+[affiliations] 0.5s
+[countries] 0.7s
+[country collaboration map] 1.9s
+[most global cited documents] 1.0s
+[most local cited documents] 2.3s
+[most local cited references] 3.7s
+[rpys] 6.2s
+[keywords] 3.0s
+[trend topics] 3.6s
+[co-occurrence network] 139.7s
+[thematic map] 4.3s
+[thematic evolution] 10.3s
+references: 24368 unique, 3265 cited at least twice
+[filter references] 0.7s
+[co-citation references] 78.8s
+[co-citation sources] 321.4s
+[bibliographic coupling] 98.7s
+[historiograph] 5.0s
+[collaboration authors] 23.0s
+[collaboration institutions] 17.2s
+[collaboration countries] 36.2s
+[three-field plot] 3.7s
+done. failures: 0 

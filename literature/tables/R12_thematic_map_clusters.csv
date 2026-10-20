@@ -1,0 +1,37 @@
+"groups","words","name_full","n","centrality","density","rcentrality","rdensity","name","color","freq"
+1,"large language models 9
+chatgpt 5.5
+ai-generated text detection 3.5
+generative ai 3.1
+academic integrity 2.9
+research integrity 2.7
+academic writing 2.6
+plagiarism detection 2
+ai-generated text 1.9
+ai-assisted writing 1.4","large language models
+chatgpt
+ai-generated text detection",111,1.140275810603,15.991833093302,2,3,"large language models","#E41A1C80",2863
+2,"peer review 8.5
+preprints 5.2
+scholarly publishing 4.4
+preprint servers 3.9
+scholarly communication 3.6
+arxiv 2.8
+covid-19 pandemic 2.4
+biorxiv 2.4
+medrxiv 2
+editorial policy 2","peer review
+preprints
+scholarly publishing",46,1.13904947428898,12.3347432273835,1,1,"peer review","#377EB880",1382
+3,"research waste 5.7
+systematic reviews 4.7
+meta-analysis 3.3
+reporting quality 2.4
+methodological quality 2.1
+reproducibility 1.8
+risk of bias 1.8
+publication bias 1.6
+research transparency 1.6
+artificial intelligence 1.6","research waste
+systematic reviews
+meta-analysis",53,1.20275526769208,12.9575804202214,3,2,"research waste","#4DAF4A80",1159

@@ -1,0 +1,646 @@
+=== task days 2022-01..2026-09
+[days] day_20251016: 614/614
+[days] day_20251117: 669/669
+[days] day_20250928: 464/464
+[days] day_20251211: 531/531
+[days] day_20250822: 441/441
+[days] day_20260130: 773/773
+[days] day_20250714: 549/549
+[days] day_20260221: 232/232
+[days] day_20250605: 664/664
+[days] day_20260328: 272/272
+[days] day_20250504: 222/222
+[days] day_20260402: 686/686
+[days] day_20250408: 487/487
+[days] day_20260516: 361/361
+[days] day_20250313: 567/567
+[days] day_20260609: 758/758
+[days] day_20250206: 506/506
+[days] day_20260723: 566/566
+[days] day_20250106: 351/351
+[days] day_20260808: 356/356
+[days] day_20241206: 411/411
+[days] day_20260909: 652/652
+[days] day_20241122: 366/366
+[days] day_20241029: 535/535
+[days] day_20240927: 437/437
+[days] day_20240819: 434/434
+[days] day_20240707: 195/195
+[days] day_20240608: 197/197
+[days] day_20240506: 443/443
+[days] day_20240429: 431/431
+[days] day_20240309: 217/217
+[days] day_20240213: 394/394
+[days] day_20240126: 341/341
+[days] day_20231211: 478/478
+[days] day_20231130: 490/490
+[days] day_20231017: 383/383
+[days] day_20230908: 277/277
+[days] day_20230821: 358/358
+[days] day_20230711: 353/353
+[days] day_20230619: 306/306
+[days] day_20230524: 674/674
+[days] day_20230418: 324/324
+[days] day_20230309: 331/331
+[days] day_20230226: 149/149
+[days] day_20230103: 218/218
+[days] day_20221218: 118/118
+[days] day_20221126: 161/161
+[days] day_20221027: 380/380
+[days] day_20220914: 285/285
+[days] day_20220822: 281/281
+[days] day_20220731: 124/124
+[days] day_20220624: 230/230
+[days] day_20220505: 284/284
+[days] day_20220428: 284/284
+[days] day_20220310: 270/270
+[days] day_20220224: 307/307
+[days] day_20220117: 255/255
+=== task counts_core 2022-01..2026-09
+[counts_core] cs_any|2022-01 = 5113
+[counts_core] G_any|2022-01 = 6079
+[counts_core] stat_notcs|2022-01 = 293
+[counts_core] eess_notcs|2022-01 = 321
+[counts_core] qbio_notcs|2022-01 = 184
+[counts_core] econ_notcs|2022-01 = 106
+[counts_core] qfin_notcs|2022-01 = 63
+[counts_core] socph_notcs|2022-01 = 82
+   retry 1 after 20s: <HTTPError 429: 'Unknown Error'>
+   retry 2 after 40s: <HTTPError 429: 'Unknown Error'>
+   retry 3 after 80s: <HTTPError 429: 'Unknown Error'>
+   retry 4 after 160s: <HTTPError 429: 'Unknown Error'>
+   retry 5 after 320s: <HTTPError 429: 'Unknown Error'>
+[counts_core] math_notcs|2022-01 = 2668
+[counts_core] phys_notcs|2022-01 = 4117
+[counts_core] cs_any|2022-02 = 5800
+[counts_core] G_any|2022-02 = 6799
+[counts_core] stat_notcs|2022-02 = 305
+[counts_core] eess_notcs|2022-02 = 346
+[counts_core] qbio_notcs|2022-02 = 162
+[counts_core] econ_notcs|2022-02 = 113
+[counts_core] qfin_notcs|2022-02 = 83
+[counts_core] socph_notcs|2022-02 = 63
+[counts_core] math_notcs|2022-02 = 2641
+[counts_core] phys_notcs|2022-02 = 4028
+[counts_core] cs_any|2022-03 = 7174
+[counts_core] G_any|2022-03 = 8347
+   retry 1 after 20s: <HTTPError 429: 'Unknown Error'>
+   retry 2 after 40s: <HTTPError 429: 'Unknown Error'>
+   retry 3 after 80s: <HTTPError 429: 'Unknown Error'>
+   retry 4 after 160s: <HTTPError 429: 'Unknown Error'>
+=== task counts_core 2022-01..2026-09
+   retry 1 after 120s: HTTP 429
+   retry 2 after 120s: HTTP 429
+[counts_core] cs_any|2022-04 = 6023
+[counts_core] cs_any|2022-05 = 6893
+[counts_core] cs_any|2022-06 = 6520
+[counts_core] cs_any|2022-07 = 6123
+[counts_core] cs_any|2022-08 = 5598
+[counts_core] cs_any|2022-09 = 6205
+[counts_core] cs_any|2022-10 = 8021
+[counts_core] cs_any|2022-11 = 7112
+[counts_core] cs_any|2022-12 = 5677
+   retry 1 after 120s: HTTP 429
+   retry 2 after 120s: HTTP 429
+   retry 3 after 120s: HTTP 429
+[counts_core] cs_any|2023-01 = 5137
+[counts_core] cs_any|2023-02 = 6418
+[counts_core] cs_any|2023-03 = 8103
+[counts_core] cs_any|2023-04 = 6705
+[counts_core] cs_any|2023-05 = 9859
+[counts_core] cs_any|2023-06 = 8053
+[counts_core] cs_any|2023-07 = 7247
+[counts_core] cs_any|2023-08 = 7597
+[counts_core] cs_any|2023-09 = 8129
+[counts_core] cs_any|2023-10 = 9599
+[counts_core] cs_any|2023-11 = 8508
+[counts_core] cs_any|2023-12 = 8209
+[counts_core] cs_any|2024-01 = 7654
+[counts_core] cs_any|2024-02 = 9770
+[counts_core] cs_any|2024-03 = 10330
+[counts_core] cs_any|2024-04 = 9231
+[counts_core] cs_any|2024-05 = 10345
+[counts_core] cs_any|2024-06 = 10647
+[counts_core] cs_any|2024-07 = 9793
+[counts_core] cs_any|2024-08 = 8449
+[counts_core] cs_any|2024-09 = 9825
+[counts_core] cs_any|2024-10 = 12580
+[counts_core] cs_any|2024-11 = 9451
+[counts_core] cs_any|2024-12 = 10221
+[counts_core] cs_any|2025-01 = 8816
+[counts_core] cs_any|2025-02 = 11518
+[counts_core] cs_any|2025-03 = 12270
+[counts_core] cs_any|2025-04 = 10570
+[counts_core] cs_any|2025-05 = 14472
+[counts_core] cs_any|2025-06 = 12394
+[counts_core] cs_any|2025-07 = 11468
+[counts_core] cs_any|2025-08 = 11758
+[counts_core] cs_any|2025-09 = 13351
+[counts_core] cs_any|2025-10 = 14267
+[counts_core] cs_any|2025-11 = 12194
+[counts_core] cs_any|2025-12 = 10848
+[counts_core] cs_any|2026-01 = 12413
+[counts_core] cs_any|2026-02 = 13436
+[counts_core] cs_any|2026-03 = 15507
+[counts_core] cs_any|2026-04 = 14792
+[counts_core] cs_any|2026-05 = 19214
+[counts_core] cs_any|2026-06 = 16443
+[counts_core] cs_any|2026-07 = 14484
+[counts_core] cs_any|2026-08 = 15809
+[counts_core] cs_any|2026-09 = 19518
+=== all requested tasks finished
+=== task net 2024-11..2026-09
+[net] net_20241101-07: 831/831
+[net] net_20241108-14: 647/647
+[net] net_20241115-21: 739/739
+[net] net_20241122-30: 876/876
+[net] net_20241201-07: 839/839
+[net] net_20241208-14: 863/863
+[net] net_20241215-21: 906/906
+[net] net_20241222-31: 791/791
+[net] net_20250101-07: 546/546
+[net] net_20250108-14: 687/687
+[net] net_20250115-21: 634/634
+[net] net_20250122-31: 1144/1144
+[net] net_20250201-07: 928/928
+[net] net_20250208-14: 978/978
+[net] net_20250215-21: 1063/1063
+[net] net_20250222-28: 960/960
+[net] net_20250301-07: 965/965
+[net] net_20250308-14: 1091/1091
+[net] net_20250315-21: 948/948
+[net] net_20250322-31: 1213/1213
+[net] net_20250401-07: 882/882
+[net] net_20250408-14: 854/854
+[net] net_20250415-21: 825/825
+[net] net_20250422-30: 1113/1113
+[net] net_20250501-07: 805/805
+[net] net_20250508-14: 826/826
+[net] net_20250515-21: 1252/1252
+[net] net_20250522-31: 2011/2011
+[net] net_20250601-07: 1216/1216
+[net] net_20250608-14: 1090/1090
+[net] net_20250615-21: 946/946
+[net] net_20250622-30: 1146/1146
+[net] net_20250701-07: 882/882
+[net] net_20250708-14: 934/934
+[net] net_20250715-21: 899/899
+[net] net_20250722-31: 1321/1321
+[net] net_20250801-07: 1133/1133
+[net] net_20250808-14: 967/967
+[net] net_20250815-21: 908/908
+[net] net_20250822-31: 1234/1234
+[net] net_20250901-07: 813/813
+[net] net_20250908-14: 887/887
+[net] net_20250915-21: 998/998
+[net] net_20250922-30: 1931/1931
+[net] net_20251001-07: 1124/1124
+[net] net_20251008-14: 1319/1319
+[net] net_20251015-21: 1072/1072
+[net] net_20251022-31: 1566/1566
+[net] net_20251101-07: 887/887
+[net] net_20251108-14: 1119/1119
+[net] net_20251115-21: 1065/1065
+[net] net_20251122-30: 1225/1225
+[net] net_20251201-07: 1007/1007
+[net] net_20251208-14: 950/950
+[net] net_20251215-21: 983/983
+[net] net_20251222-31: 1044/1044
+[net] net_20260101-07: 787/787
+[net] net_20260108-14: 1022/1022
+[net] net_20260115-21: 1056/1056
+[net] net_20260122-31: 1680/1680
+[net] net_20260201-07: 1411/1411
+[net] net_20260208-14: 1221/1221
+[net] net_20260215-21: 937/937
+[net] net_20260222-28: 1138/1138
+[net] net_20260301-07: 1234/1234
+[net] net_20260308-14: 1352/1352
+[net] net_20260315-21: 1333/1333
+[net] net_20260322-31: 1721/1721
+[net] net_20260401-07: 1326/1326
+[net] net_20260408-14: 1332/1332
+[net] net_20260415-21: 1349/1349
+[net] net_20260422-30: 1595/1595
+[net] net_20260501-07: 1354/1354
+[net] net_20260508-14: 1804/1804
+[net] net_20260515-21: 1515/1515
+[net] net_20260522-31: 2076/2076
+[net] net_20260601-07: 1547/1547
+[net] net_20260608-14: 1354/1354
+[net] net_20260615-21: 1243/1243
+[net] net_20260622-30: 1738/1738
+[net] net_20260701-07: 1193/1193
+[net] net_20260708-14: 1150/1150
+[net] net_20260715-21: 1063/1063
+[net] net_20260722-31: 1765/1765
+[net] net_20260801-07: 1406/1406
+[net] net_20260808-14: 1289/1289
+[net] net_20260815-21: 1126/1126
+[net] net_20260822-31: 1779/1779
+[net] net_20260901-07: 1288/1288
+[net] net_20260908-14: 1217/1217
+[net] net_20260915-21: 1360/1360
+[net] net_20260922-30: 2611/2611
+=== all requested tasks finished
+=== task counts_core 2022-01..2026-09
+[counts_core] math_notcs|2022-03 = 3132
+[counts_core] phys_notcs|2022-03 = 4967
+[counts_core] math_notcs|2022-04 = 2773
+[counts_core] phys_notcs|2022-04 = 4194
+[counts_core] math_notcs|2022-05 = 2792
+[counts_core] phys_notcs|2022-05 = 4518
+[counts_core] math_notcs|2022-06 = 2906
+[counts_core] phys_notcs|2022-06 = 4382
+[counts_core] math_notcs|2022-07 = 3030
+   retry 1 after 120s: HTTP 429
+   retry 2 after 120s: HTTP 429
+   retry 3 after 120s: HTTP 429
+[counts_core] phys_notcs|2022-07 = 4522
+[counts_core] math_notcs|2022-08 = 2890
+[counts_core] phys_notcs|2022-08 = 4432
+[counts_core] math_notcs|2022-09 = 3014
+[counts_core] phys_notcs|2022-09 = 4622
+[counts_core] math_notcs|2022-10 = 3141
+[counts_core] phys_notcs|2022-10 = 4683
+[counts_core] math_notcs|2022-11 = 3191
+[counts_core] phys_notcs|2022-11 = 4898
+[counts_core] math_notcs|2022-12 = 2988
+[counts_core] phys_notcs|2022-12 = 4660
+[counts_core] math_notcs|2023-01 = 2685
+[counts_core] phys_notcs|2023-01 = 4188
+[counts_core] math_notcs|2023-02 = 2715
+[counts_core] phys_notcs|2023-02 = 4111
+[counts_core] math_notcs|2023-03 = 3400
+[counts_core] phys_notcs|2023-03 = 4883
+[counts_core] math_notcs|2023-04 = 2843
+[counts_core] phys_notcs|2023-04 = 4144
+[counts_core] math_notcs|2023-05 = 3186
+[counts_core] phys_notcs|2023-05 = 4827
+[counts_core] math_notcs|2023-06 = 3057
+[counts_core] phys_notcs|2023-06 = 4760
+[counts_core] math_notcs|2023-07 = 3068
+[counts_core] phys_notcs|2023-07 = 4937
+[counts_core] math_notcs|2023-08 = 3047
+[counts_core] phys_notcs|2023-08 = 4513
+[counts_core] math_notcs|2023-09 = 3127
+[counts_core] phys_notcs|2023-09 = 4781
+[counts_core] math_notcs|2023-10 = 3455
+[counts_core] phys_notcs|2023-10 = 5175
+[counts_core] math_notcs|2023-11 = 3214
+[counts_core] phys_notcs|2023-11 = 5094
+[counts_core] math_notcs|2023-12 = 3298
+[counts_core] phys_notcs|2023-12 = 4941
+[counts_core] math_notcs|2024-01 = 3246
+[counts_core] phys_notcs|2024-01 = 4665
+[counts_core] math_notcs|2024-02 = 3313
+[counts_core] phys_notcs|2024-02 = 4497
+[counts_core] math_notcs|2024-03 = 3506
+[counts_core] phys_notcs|2024-03 = 4881
+[counts_core] math_notcs|2024-04 = 3261
+[counts_core] phys_notcs|2024-04 = 4877
+[counts_core] math_notcs|2024-05 = 3479
+[counts_core] phys_notcs|2024-05 = 5184
+[counts_core] math_notcs|2024-06 = 3109
+[counts_core] phys_notcs|2024-06 = 4975
+[counts_core] math_notcs|2024-07 = 3431
+[counts_core] phys_notcs|2024-07 = 5296
+[counts_core] math_notcs|2024-08 = 2939
+[counts_core] phys_notcs|2024-08 = 4560
+[counts_core] math_notcs|2024-09 = 3377
+[counts_core] phys_notcs|2024-09 = 5017
+[counts_core] math_notcs|2024-10 = 3652
+[counts_core] phys_notcs|2024-10 = 5593
+[counts_core] math_notcs|2024-11 = 3385
+[counts_core] phys_notcs|2024-11 = 5118
+[counts_core] math_notcs|2024-12 = 3601
+[counts_core] phys_notcs|2024-12 = 5390
+[counts_core] math_notcs|2025-01 = 3240
+[counts_core] phys_notcs|2025-01 = 4684
+[counts_core] math_notcs|2025-02 = 3123
+[counts_core] phys_notcs|2025-02 = 4721
+[counts_core] math_notcs|2025-03 = 3681
+[counts_core] phys_notcs|2025-03 = 5815
+[counts_core] math_notcs|2025-04 = 3516
+[counts_core] phys_notcs|2025-04 = 5230
+[counts_core] math_notcs|2025-05 = 3467
+[counts_core] phys_notcs|2025-05 = 5267
+[counts_core] math_notcs|2025-06 = 3335
+[counts_core] phys_notcs|2025-06 = 5402
+[counts_core] math_notcs|2025-07 = 3695
+[counts_core] phys_notcs|2025-07 = 6092
+[counts_core] math_notcs|2025-08 = 3482
+[counts_core] phys_notcs|2025-08 = 5033
+[counts_core] math_notcs|2025-09 = 3945
+[counts_core] phys_notcs|2025-09 = 6060
+[counts_core] math_notcs|2025-10 = 4168
+[counts_core] phys_notcs|2025-10 = 6198
+[counts_core] math_notcs|2025-11 = 3839
+[counts_core] phys_notcs|2025-11 = 5614
+[counts_core] math_notcs|2025-12 = 4002
+[counts_core] phys_notcs|2025-12 = 6519
+[counts_core] math_notcs|2026-01 = 3715
+[counts_core] phys_notcs|2026-01 = 5409
+[counts_core] math_notcs|2026-02 = 3584
+[counts_core] phys_notcs|2026-02 = 5155
+[counts_core] math_notcs|2026-03 = 4435
+[counts_core] phys_notcs|2026-03 = 6656
+[counts_core] math_notcs|2026-04 = 4222
+[counts_core] phys_notcs|2026-04 = 6291
+[counts_core] math_notcs|2026-05 = 4589
+[counts_core] phys_notcs|2026-05 = 6361
+[counts_core] math_notcs|2026-06 = 4860
+[counts_core] phys_notcs|2026-06 = 6769
+[counts_core] math_notcs|2026-07 = 5386
+[counts_core] phys_notcs|2026-07 = 7072
+[counts_core] math_notcs|2026-08 = 6207
+[counts_core] phys_notcs|2026-08 = 6603
+[counts_core] math_notcs|2026-09 = 8183
+[counts_core] phys_notcs|2026-09 = 7971
+=== all requested tasks finished
+=== task net 2022-01..2026-09
+[net] net_20220101-07: 330/330
+[net] net_20220108-14: 412/412
+[net] net_20220115-21: 424/424
+[net] net_20220122-31: 640/640
+[net] net_20220201-07: 458/458
+[net] net_20220208-14: 492/492
+[net] net_20220215-21: 559/559
+[net] net_20220222-28: 499/499
+[net] net_20220301-07: 497/497
+[net] net_20220308-14: 499/499
+[net] net_20220315-21: 526/526
+[net] net_20220322-31: 878/878
+[net] net_20220401-07: 523/523
+[net] net_20220408-14: 482/482
+[net] net_20220415-21: 457/457
+[net] net_20220422-30: 648/648
+[net] net_20220501-07: 447/447
+[net] net_20220508-14: 458/458
+[net] net_20220515-21: 508/508
+[net] net_20220522-31: 788/788
+[net] net_20220601-07: 503/503
+[net] net_20220608-14: 485/485
+[net] net_20220615-21: 537/537
+[net] net_20220622-30: 671/671
+[net] net_20220701-07: 457/457
+[net] net_20220708-14: 436/436
+[net] net_20220715-21: 513/513
+[net] net_20220722-31: 598/598
+[net] net_20220801-07: 418/418
+[net] net_20220808-14: 386/386
+[net] net_20220815-21: 443/443
+[net] net_20220822-31: 687/687
+[net] net_20220901-07: 454/454
+[net] net_20220908-14: 449/449
+[net] net_20220915-21: 509/509
+[net] net_20220922-30: 699/699
+[net] net_20221001-07: 570/570
+[net] net_20221008-14: 673/673
+[net] net_20221015-21: 578/578
+[net] net_20221022-31: 760/760
+[net] net_20221101-07: 506/506
+[net] net_20221108-14: 516/516
+[net] net_20221115-21: 582/582
+[net] net_20221122-30: 764/764
+[net] net_20221201-07: 502/502
+[net] net_20221208-14: 492/492
+[net] net_20221215-21: 505/505
+[net] net_20221222-31: 452/452
+[net] net_20230101-07: 335/335
+[net] net_20230108-14: 391/391
+[net] net_20230115-21: 383/383
+[net] net_20230122-31: 717/717
+[net] net_20230201-07: 569/569
+[net] net_20230208-14: 527/527
+[net] net_20230215-21: 497/497
+[net] net_20230222-28: 556/556
+[net] net_20230301-07: 625/625
+[net] net_20230308-14: 634/634
+[net] net_20230315-21: 629/629
+[net] net_20230322-31: 893/893
+[net] net_20230401-07: 538/538
+[net] net_20230408-14: 555/555
+[net] net_20230415-21: 565/565
+[net] net_20230422-30: 647/647
+[net] net_20230501-07: 569/569
+[net] net_20230508-14: 603/603
+[net] net_20230515-21: 683/683
+[net] net_20230522-31: 1336/1336
+[net] net_20230601-07: 760/760
+[net] net_20230608-14: 642/642
+[net] net_20230615-21: 561/561
+[net] net_20230622-30: 768/768
+[net] net_20230701-07: 588/588
+[net] net_20230708-14: 574/574
+[net] net_20230715-21: 638/638
+[net] net_20230722-31: 752/752
+[net] net_20230801-07: 580/580
+[net] net_20230808-14: 563/563
+[net] net_20230815-21: 627/627
+[net] net_20230822-31: 934/934
+[net] net_20230901-07: 579/579
+[net] net_20230908-14: 542/542
+[net] net_20230915-21: 673/673
+[net] net_20230922-30: 845/845
+[net] net_20231001-07: 727/727
+[net] net_20231008-14: 736/736
+[net] net_20231015-21: 676/676
+[net] net_20231022-31: 1072/1072
+[net] net_20231101-07: 686/686
+[net] net_20231108-14: 617/617
+[net] net_20231115-21: 703/703
+[net] net_20231122-30: 927/927
+[net] net_20231201-07: 698/698
+[net] net_20231208-14: 788/788
+[net] net_20231215-21: 702/702
+[net] net_20231222-31: 628/628
+[net] net_20240101-07: 471/471
+[net] net_20240108-14: 576/576
+[net] net_20240115-21: 642/642
+[net] net_20240122-31: 1004/1004
+[net] net_20240201-07: 915/915
+[net] net_20240208-14: 665/665
+[net] net_20240215-21: 787/787
+[net] net_20240222-29: 894/894
+[net] net_20240301-07: 782/782
+[net] net_20240308-14: 762/762
+[net] net_20240315-21: 838/838
+[net] net_20240322-31: 1010/1010
+[net] net_20240401-07: 722/722
+[net] net_20240408-14: 665/665
+[net] net_20240415-21: 755/755
+[net] net_20240422-30: 1029/1029
+[net] net_20240501-07: 704/704
+[net] net_20240508-14: 662/662
+[net] net_20240515-21: 662/662
+[net] net_20240522-31: 1426/1426
+[net] net_20240601-07: 898/898
+[net] net_20240608-14: 900/900
+[net] net_20240615-21: 901/901
+[net] net_20240622-30: 895/895
+[net] net_20240701-07: 810/810
+[net] net_20240708-14: 761/761
+[net] net_20240715-21: 780/780
+[net] net_20240722-31: 1001/1001
+[net] net_20240801-07: 587/587
+[net] net_20240808-14: 589/589
+[net] net_20240815-21: 713/713
+[net] net_20240822-31: 906/906
+[net] net_20240901-07: 682/682
+[net] net_20240908-14: 700/700
+[net] net_20240915-21: 768/768
+[net] net_20240922-30: 1114/1114
+[net] net_20241001-07: 872/872
+[net] net_20241008-14: 948/948
+[net] net_20241015-21: 910/910
+[net] net_20241022-31: 1195/1195
+=== all requested tasks finished
+=== task counts_core 2022-01..2026-09
+[counts_core] stat_notcs|2022-03 = 387
+[counts_core] eess_notcs|2022-03 = 505
+[counts_core] qbio_notcs|2022-03 = 128
+[counts_core] econ_notcs|2022-03 = 95
+[counts_core] qfin_notcs|2022-03 = 60
+[counts_core] socph_notcs|2022-03 = 88
+[counts_core] stat_notcs|2022-04 = 290
+[counts_core] eess_notcs|2022-04 = 425
+[counts_core] qbio_notcs|2022-04 = 138
+[counts_core] econ_notcs|2022-04 = 109
+[counts_core] qfin_notcs|2022-04 = 50
+[counts_core] socph_notcs|2022-04 = 61
+[counts_core] stat_notcs|2022-05 = 309
+[counts_core] eess_notcs|2022-05 = 387
+[counts_core] qbio_notcs|2022-05 = 171
+[counts_core] econ_notcs|2022-05 = 131
+[counts_core] qfin_notcs|2022-05 = 62
+[counts_core] socph_notcs|2022-05 = 76
+[counts_core] stat_notcs|2022-06 = 351
+[counts_core] eess_notcs|2022-06 = 387
+[counts_core] qbio_notcs|2022-06 = 138
+[counts_core] econ_notcs|2022-06 = 128
+[counts_core] qfin_notcs|2022-06 = 68
+[counts_core] socph_notcs|2022-06 = 72
+[counts_core] stat_notcs|2022-07 = 326
+[counts_core] eess_notcs|2022-07 = 436
+[counts_core] qbio_notcs|2022-07 = 147
+[counts_core] econ_notcs|2022-07 = 91
+[counts_core] qfin_notcs|2022-07 = 76
+[counts_core] socph_notcs|2022-07 = 75
+[counts_core] stat_notcs|2022-08 = 368
+[counts_core] eess_notcs|2022-08 = 411
+[counts_core] qbio_notcs|2022-08 = 165
+[counts_core] econ_notcs|2022-08 = 115
+[counts_core] qfin_notcs|2022-08 = 63
+[counts_core] socph_notcs|2022-08 = 69
+[counts_core] stat_notcs|2022-09 = 336
+[counts_core] eess_notcs|2022-09 = 463
+[counts_core] qbio_notcs|2022-09 = 151
+[counts_core] econ_notcs|2022-09 = 121
+[counts_core] qfin_notcs|2022-09 = 68
+[counts_core] socph_notcs|2022-09 = 71
+[counts_core] stat_notcs|2022-10 = 408
+[counts_core] eess_notcs|2022-10 = 440
+[counts_core] qbio_notcs|2022-10 = 185
+[counts_core] econ_notcs|2022-10 = 108
+[counts_core] qfin_notcs|2022-10 = 66
+[counts_core] socph_notcs|2022-10 = 75
+[counts_core] stat_notcs|2022-11 = 376
+[counts_core] eess_notcs|2022-11 = 490
+[counts_core] qbio_notcs|2022-11 = 169
+[counts_core] econ_notcs|2022-11 = 115
+[counts_core] qfin_notcs|2022-11 = 75
+[counts_core] socph_notcs|2022-11 = 78
+[counts_core] stat_notcs|2022-12 = 303
+[counts_core] eess_notcs|2022-12 = 363
+[counts_core] qbio_notcs|2022-12 = 154
+[counts_core] econ_notcs|2022-12 = 130
+[counts_core] qfin_notcs|2022-12 = 64
+[counts_core] socph_notcs|2022-12 = 65
+[counts_core] stat_notcs|2023-01 = 305
+[counts_core] eess_notcs|2023-01 = 360
+[counts_core] qbio_notcs|2023-01 = 175
+[counts_core] econ_notcs|2023-01 = 113
+[counts_core] qfin_notcs|2023-01 = 64
+[counts_core] socph_notcs|2023-01 = 67
+[counts_core] stat_notcs|2023-02 = 336
+[counts_core] eess_notcs|2023-02 = 393
+[counts_core] qbio_notcs|2023-02 = 154
+[counts_core] econ_notcs|2023-02 = 115
+[counts_core] qfin_notcs|2023-02 = 78
+[counts_core] socph_notcs|2023-02 = 59
+[counts_core] stat_notcs|2023-03 = 382
+[counts_core] eess_notcs|2023-03 = 537
+[counts_core] qbio_notcs|2023-03 = 195
+[counts_core] econ_notcs|2023-03 = 136
+[counts_core] qfin_notcs|2023-03 = 72
+[counts_core] socph_notcs|2023-03 = 87
+[counts_core] stat_notcs|2023-04 = 297
+[counts_core] eess_notcs|2023-04 = 487
+[counts_core] qbio_notcs|2023-04 = 158
+[counts_core] econ_notcs|2023-04 = 132
+[counts_core] qfin_notcs|2023-04 = 58
+[counts_core] socph_notcs|2023-04 = 59
+[counts_core] stat_notcs|2023-05 = 378
+[counts_core] eess_notcs|2023-05 = 501
+[counts_core] qbio_notcs|2023-05 = 172
+[counts_core] econ_notcs|2023-05 = 126
+[counts_core] qfin_notcs|2023-05 = 73
+[counts_core] socph_notcs|2023-05 = 86
+[counts_core] stat_notcs|2023-06 = 392
+[counts_core] eess_notcs|2023-06 = 440
+[counts_core] qbio_notcs|2023-06 = 174
+[counts_core] econ_notcs|2023-06 = 110
+[counts_core] qfin_notcs|2023-06 = 66
+[counts_core] socph_notcs|2023-06 = 81
+[counts_core] stat_notcs|2023-07 = 318
+[counts_core] eess_notcs|2023-07 = 444
+[counts_core] qbio_notcs|2023-07 = 178
+[counts_core] econ_notcs|2023-07 = 118
+[counts_core] qfin_notcs|2023-07 = 83
+[counts_core] socph_notcs|2023-07 = 110
+[counts_core] stat_notcs|2023-08 = 296
+[counts_core] eess_notcs|2023-08 = 403
+[counts_core] qbio_notcs|2023-08 = 171
+[counts_core] econ_notcs|2023-08 = 129
+[counts_core] qfin_notcs|2023-08 = 66
+[counts_core] socph_notcs|2023-08 = 80
+[counts_core] stat_notcs|2023-09 = 339
+[counts_core] eess_notcs|2023-09 = 524
+[counts_core] qbio_notcs|2023-09 = 193
+[counts_core] econ_notcs|2023-09 = 116
+[counts_core] qfin_notcs|2023-09 = 67
+[counts_core] socph_notcs|2023-09 = 75
+[counts_core] stat_notcs|2023-10 = 403
+[counts_core] eess_notcs|2023-10 = 571
+[counts_core] qbio_notcs|2023-10 = 191
+[counts_core] econ_notcs|2023-10 = 140
+[counts_core] qfin_notcs|2023-10 = 70
+[counts_core] socph_notcs|2023-10 = 94
+[counts_core] stat_notcs|2023-11 = 364
+[counts_core] eess_notcs|2023-11 = 525
+[counts_core] qbio_notcs|2023-11 = 217
+[counts_core] econ_notcs|2023-11 = 142
+[counts_core] qfin_notcs|2023-11 = 85
+[counts_core] socph_notcs|2023-11 = 97
+[counts_core] stat_notcs|2023-12 = 358
+[counts_core] eess_notcs|2023-12 = 477
+[counts_core] qbio_notcs|2023-12 = 180
+[counts_core] econ_notcs|2023-12 = 141
+[counts_core] qfin_notcs|2023-12 = 75
+[counts_core] socph_notcs|2023-12 = 85
+[counts_core] stat_notcs|2024-01 = 401
+[counts_core] eess_notcs|2024-01 = 501
+[counts_core] qbio_notcs|2024-01 = 186
+[counts_core] econ_notcs|2024-01 = 147
+[counts_core] qfin_notcs|2024-01 = 73
+[counts_core] socph_notcs|2024-01 = 89
+[counts_core] stat_notcs|2024-02 = 361
+[counts_core] eess_notcs|2024-02 = 467
+[counts_core] qbio_notcs|2024-02 = 181
+[counts_core] econ_notcs|2024-02 = 146
+[counts_core] qfin_notcs|2024-02 = 79
+[counts_core] socph_notcs|2024-02 = 77
+   retry 1 after 120s: HTTP 429
+   retry 2 after 120s: HTTP 429
+   retry 3 after 120s: HTTP 429

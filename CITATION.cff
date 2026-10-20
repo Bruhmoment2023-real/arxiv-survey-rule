@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Survey and position papers in arXiv computer science after the 2025 review rule: an interrupted time series (code and data)"
+type: software
+authors:
+  - family-names: "Solano Paul"
+    given-names: "Sean"
+    affiliation: "Independent researcher"
+date-released: 2026-10-20
+license: MIT
+abstract: "Code, derived data, hand labels, results and figures for an interrupted time series of the share of arXiv computer science papers that describe themselves as surveys, reviews or position papers, before and after arXiv's October 2025 review-article rule."
+keywords:
+  - arXiv
+  - preprints
+  - survey papers
+  - position papers
+  - moderation policy
+  - interrupted time series
+repository-code: "https://github.com/Bruhmoment2023-real/arxiv-survey-rule"

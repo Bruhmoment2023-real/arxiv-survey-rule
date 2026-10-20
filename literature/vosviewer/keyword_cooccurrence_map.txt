@@ -1,0 +1,331 @@
+id	label	weight<Occurrences>	score<Avg. pub. year>	score<Avg. citations>
+1	large language models	398	2025.02	18.11
+2	chatgpt	220	2024.65	24.8
+3	peer review	201	2021.99	15.62
+4	ai-generated text detection	150	2024.83	21.24
+5	research waste	126	2021.49	22.06
+6	preprints	125	2021.93	21.62
+7	generative ai	124	2025.23	9.96
+8	academic integrity	113	2025.06	8.98
+9	scholarly publishing	104	2022.58	27.94
+10	academic writing	104	2025.21	11.97
+11	research integrity	103	2024.08	24.6
+12	systematic reviews	98	2020.35	34.69
+13	preprint servers	94	2020.87	23.86
+14	scholarly communication	86	2020.99	20.16
+15	plagiarism detection	76	2024.42	22.49
+16	ai-generated text	75	2024.76	12.76
+17	meta-analysis	69	2019.97	38.01
+18	arxiv	67	2019.85	26.66
+19	covid-19 pandemic	57	2022.0	13.56
+20	ai-assisted writing	57	2025.39	5.84
+21	biorxiv	56	2021.61	31.96
+22	reporting quality	49	2020.51	19.37
+23	medrxiv	47	2022.13	24.49
+24	editorial policy	47	2017.7	9.15
+25	research ethics	44	2024.61	13.16
+26	methodological quality	43	2020.63	8.79
+27	scientific writing	41	2024.34	21.9
+28	reproducibility	36	2023.53	20.36
+29	ai disclosure	36	2025.25	16.81
+30	ai detection	36	2025.03	13.08
+31	risk of bias	36	2021.58	11.75
+32	ai detection tools	35	2025.17	7.4
+33	plagiarism	34	2024.44	17.15
+34	publication bias	34	2020.09	17.94
+35	artificial intelligence	33	2024.42	19.12
+36	research transparency	33	2022.18	18.27
+37	science communication	32	2021.38	18.44
+38	citation impact	32	2020.34	20.72
+39	randomized controlled trials	32	2020.5	19.84
+40	publication ethics	31	2023.0	23.81
+41	scientific abstracts	30	2024.7	43.37
+42	research dissemination	29	2022.38	23.62
+43	journal impact factor	28	2020.46	15.29
+44	publication trends	28	2021.21	17.29
+45	scientific integrity	27	2024.19	50.0
+46	ai-generated content	27	2024.85	8.19
+47	reporting guidelines	27	2019.52	20.15
+48	evidence synthesis	26	2021.77	83.04
+49	authorship attribution	26	2024.81	11.46
+50	ai ethics	26	2024.73	5.92
+51	open science	25	2022.76	16.52
+52	bibliometric analysis	25	2020.84	20.64
+53	gptzero	25	2024.92	10.4
+54	open access	24	2018.88	39.29
+55	citation analysis	24	2019.12	23.46
+56	time to publication	23	2020.0	28.0
+57	citation counts	23	2018.19	12.65
+58	authorship	23	2024.26	13.87
+59	hallucinations	22	2024.82	17.64
+60	literature review automation	22	2024.95	8.27
+61	machine learning	22	2023.91	19.73
+62	amstar 2	22	2022.55	4.18
+63	prompt engineering	21	2024.95	7.62
+64	responsible ai use	21	2025.29	7.52
+65	research misconduct	21	2023.86	6.9
+66	prisma	21	2020.0	12.9
+67	retrieval-augmented generation	19	2024.95	18.47
+68	readability	19	2025.21	12.21
+69	algorithmic bias	19	2025.32	7.68
+70	human-ai collaboration	19	2025.11	6.21
+71	gemini	19	2025.58	5.89
+72	research trends	19	2023.63	11.21
+73	diagnostic accuracy	18	2023.67	16.39
+74	evidence-based medicine	17	2019.76	96.12
+75	review quality	17	2022.71	17.53
+76	ai-generated content detection	17	2024.76	8.0
+77	amstar	17	2017.53	22.94
+78	transparency	17	2023.71	8.94
+79	ai literacy	17	2025.47	2.29
+80	manuscript preparation	16	2022.0	23.88
+81	gpt-4	16	2024.62	12.88
+82	non-native english speakers	16	2025.0	16.25
+83	ai hallucination	16	2024.62	19.44
+84	journal editorial policy	16	2020.5	7.44
+85	critical thinking	16	2025.19	12.88
+86	author guidelines	16	2019.19	9.88
+87	altmetrics	15	2020.93	26.6
+88	chatgpt-4	15	2024.47	13.47
+89	lexical diversity	15	2025.47	5.33
+90	research quality	15	2018.67	20.4
+91	artificial intelligence in healthcare	15	2024.73	16.73
+92	conflicts of interest	14	2019.93	96.14
+93	ai-assisted peer review	14	2025.5	15.64
+94	llm-generated text detection	14	2025.07	5.5
+95	research evaluation	14	2022.43	31.14
+96	impact factor	14	2016.57	16.07
+97	scientific publications	14	2024.71	5.0
+98	citation accuracy	14	2025.0	7.5
+99	student perceptions	14	2025.71	6.79
+100	ai governance	14	2025.43	1.57
+101	umbrella review	14	2022.29	24.71
+102	ai-generated abstracts	13	2024.38	14.77
+103	paraphrase	13	2024.85	18.08
+104	turnitin	13	2024.69	14.08
+105	open access publishing	13	2016.85	4.08
+106	editorial process	13	2022.69	11.77
+107	methodological quality of systematic reviews	13	2021.62	13.54
+108	artificial intelligence in research	13	2025.15	3.15
+109	web of science	12	2019.58	43.75
+110	quality of evidence	12	2022.17	10.83
+111	clinical trial registration	12	2019.83	12.83
+112	open access journals	12	2021.42	10.42
+113	research funding	12	2023.17	18.17
+114	deepseek	12	2025.5	15.83
+115	higher education	12	2025.5	20.83
+116	manuscript submission	12	2016.83	8.33
+117	research priorities	11	2018.91	22.73
+118	disciplinary differences	11	2023.45	22.36
+119	research square	11	2022.56	6.45
+120	scientific journals	11	2019.7	76.64
+121	double-blind review	11	2021.09	4.91
+122	gpt-4o	11	2025.09	5.55
+123	medical writing	11	2024.91	19.45
+124	ai-assisted academic writing	11	2025.64	6.09
+125	prompt injection	11	2025.73	5.36
+126	ai authorship	11	2025.45	8.82
+127	heterogeneity	11	2019.27	15.36
+128	originality	11	2025.27	6.27
+129	ai writing tools	11	2024.82	15.09
+130	clinical decision support	11	2024.64	16.64
+131	research gaps	11	2023.36	2.45
+132	deep learning	11	2024.91	18.36
+133	overreliance on ai	11	2025.55	9.45
+134	artificial intelligence in education	11	2024.64	5.82
+135	acceptance rate	11	2020.82	0.36
+136	covid-19 research	10	2023.0	44.1
+137	publication rates	10	2021.12	8.5
+138	ssrn	10	2022.8	11.1
+139	chatbots	10	2024.2	37.8
+140	grammarly	10	2025.5	3.0
+141	academic peer review	10	2025.4	4.8
+142	generative ai in education	10	2024.7	11.7
+143	claude	10	2025.3	5.6
+144	writing instruction	10	2025.6	4.7
+145	medical education	10	2024.5	7.3
+146	editorial decision-making	10	2021.5	1.9
+147	sars-cov-2	9	2021.11	48.56
+148	citation advantage	9	2018.44	43.89
+149	data sharing	9	2021.22	18.0
+150	research impact	9	2023.33	12.33
+151	benchmark dataset	9	2025.0	12.44
+152	ai regulation	9	2025.0	2.44
+153	human oversight	9	2025.11	11.0
+154	domain generalization	9	2025.11	9.11
+155	benchmark	9	2025.11	10.33
+156	search strategies	9	2018.56	13.22
+157	citation verification	9	2025.67	3.33
+158	multi-agent systems	9	2025.22	6.44
+159	quillbot	9	2025.44	2.67
+160	evidence gaps	9	2021.56	8.11
+161	misinformation	9	2024.67	3.78
+162	desk rejection	9	2023.44	0.44
+163	scientific fraud	8	2023.38	56.38
+164	academic writing style	8	2025.12	7.38
+165	paper mills	8	2024.12	20.5
+166	journal editors	8	2020.38	49.12
+167	human vs ai text classification	8	2023.75	29.25
+168	artificial intelligence in science	8	2024.75	17.38
+169	hallucination mitigation	8	2025.12	18.62
+170	evidence-based decision making	8	2022.62	10.75
+171	literature searching	8	2023.75	13.5
+172	ai detection software	8	2024.25	23.12
+173	prospero	8	2020.38	31.0
+174	journal abstracts	8	2025.12	1.0
+175	selective reporting	8	2021.88	30.62
+176	llm-as-a-judge	8	2025.62	2.75
+177	conflict of interest disclosure	8	2016.25	19.12
+178	core outcome set	8	2023.12	11.75
+179	bert	8	2024.75	3.62
+180	roberta	8	2024.88	6.25
+181	perplexity	8	2025.12	5.25
+182	university students	8	2024.62	1.88
+183	semantic similarity	8	2025.5	5.62
+184	digital literacy	8	2025.62	1.38
+185	ai-generated images	8	2025.62	1.12
+186	false positive rate	8	2025.88	0.62
+187	ai in scientific writing	7	2024.43	147.71
+188	llm-generated text	7	2025.29	37.0
+189	biomedical research	7	2021.14	14.57
+190	meta-research	7	2023.29	17.29
+191	network meta-analysis	7	2021.0	16.0
+192	clinical trials	7	2022.14	7.57
+193	false positives	7	2025.43	4.86
+194	co-authorship	7	2020.86	28.0
+195	ai-generated reviews	7	2025.57	9.57
+196	ai-assisted scientific writing	7	2025.14	9.71
+197	critical appraisal	7	2023.86	1.71
+198	text classification	7	2025.0	2.57
+199	academic writing instruction	7	2025.57	18.43
+200	automated peer review	7	2025.43	5.57
+201	natural language processing	7	2023.0	32.0
+202	scoping review	7	2024.71	29.57
+203	consort	7	2018.86	11.57
+204	plagiarism detection software	7	2024.86	3.57
+205	ethical use of ai	7	2025.14	16.0
+206	ai-generated manuscripts	7	2025.0	6.29
+207	ai-assisted diagnosis	7	2024.71	5.57
+208	single-blind review	7	2021.71	1.29
+209	citation metrics	7	2025.43	1.29
+210	stylometry	7	2025.43	0.86
+211	research bias	6	2016.33	266.67
+212	llm-generated content	6	2025.33	40.33
+213	authorship patterns	6	2023.67	47.67
+214	computer science literature	6	2024.83	58.67
+215	ai language models	6	2024.0	85.17
+216	gpt-3	6	2023.67	70.5
+217	altmetric attention score	6	2021.33	28.33
+218	journal publishing	6	2021.0	25.83
+219	mathematics	6	2017.17	80.83
+220	research visibility	6	2023.67	17.5
+221	grade	6	2022.17	10.67
+222	gpt-2	6	2024.67	7.83
+223	h-index	6	2023.5	8.5
+224	open peer review	6	2023.17	7.0
+225	ai-generated research	6	2024.67	34.17
+226	literature synthesis	6	2024.5	3.5
+227	human-written text	6	2024.67	22.5
+228	research productivity	6	2024.5	10.33
+229	funding disclosure	6	2023.17	5.67
+230	ai transparency	6	2025.5	9.67
+231	hypothesis generation	6	2024.67	7.5
+232	abstracts	6	2024.5	11.5
+233	health interventions	6	2020.33	13.33
+234	data extraction	6	2021.83	44.17
+235	research collaboration	6	2023.33	21.17
+236	protocol registration	6	2022.33	9.17
+237	research question formulation	6	2022.33	19.83
+238	duplicate publication	6	2019.17	14.67
+239	academic misconduct	6	2024.33	4.33
+240	orthopaedic journals	6	2024.17	4.5
+241	pubmed	6	2021.17	40.17
+242	qwen	6	2025.17	30.67
+243	systematic review quality	6	2022.5	25.33
+244	reporting completeness	6	2023.5	9.67
+245	stakeholder engagement	6	2020.83	6.33
+246	meta-epidemiology	6	2020.5	12.17
+247	knowledge synthesis	6	2024.33	2.67
+248	sensitivity and specificity	6	2022.5	42.0
+249	deepfake detection	6	2024.83	18.0
+250	low- and middle-income countries	6	2023.0	13.0
+251	ai-generated code	6	2024.67	12.5
+252	bibliographic databases	6	2020.5	11.5
+253	review methodology	6	2022.5	10.67
+254	low-resource languages	6	2024.83	2.67
+255	resource-limited settings	6	2025.33	2.17
+256	artificial intelligence in academic writing	6	2025.0	2.5
+257	efl learners	6	2025.83	0.83
+258	institutional ai policies	6	2025.83	0.83
+259	survey design	5	2024.8	43.0
+260	peer-reviewed articles	5	2022.6	35.8
+261	e-prints	5	2010.4	51.8
+262	twitter	5	2022.2	28.8
+263	research reliability	5	2022.2	20.4
+264	gpt-3.5	5	2024.8	14.0
+265	scientific impact	5	2021.6	15.4
+266	ai-generated feedback	5	2025.4	15.2
+267	observational studies	5	2022.0	15.6
+268	china	5	2021.8	57.8
+269	ai ethics in research	5	2024.8	38.8
+270	asapbio	5	2023.0	9.6
+271	preprint sharing	5	2018.8	50.4
+272	pubmed central	5	2021.0	10.0
+273	citation quality	5	2024.6	18.8
+274	syntactic complexity	5	2025.2	6.6
+275	retraction	5	2023.4	23.2
+276	transparency and accountability	5	2025.4	18.8
+277	citation integrity	5	2025.4	8.0
+278	outcome reporting	5	2020.6	10.0
+279	manuscript screening	5	2023.6	9.0
+280	iclr	5	2025.8	8.8
+281	neurips	5	2025.4	13.0
+282	publish or perish	5	2024.0	21.4
+283	reviewer workload	5	2024.8	16.4
+284	scientific peer review	5	2025.2	9.2
+285	cochrane database of systematic reviews	5	2016.6	22.4
+286	risk of bias assessment	5	2022.2	48.6
+287	data availability statements	5	2022.2	12.8
+288	research reproducibility	5	2024.8	16.0
+289	accountability	5	2025.8	2.8
+290	cope	5	2023.0	10.8
+291	gender differences	5	2022.6	9.2
+292	arxiv papers	5	2025.0	6.2
+293	clinical implementation of ai	5	2024.2	1.4
+294	convolutional neural networks	5	2024.4	12.8
+295	missing data	5	2023.8	11.0
+296	trial design	5	2017.0	17.6
+297	reviewer comments	5	2022.6	4.6
+298	machine translation	5	2024.8	22.2
+299	llm agents	5	2025.6	6.2
+300	citation errors	5	2025.8	4.0
+301	ai in scientific publishing	5	2025.6	4.0
+302	digital object identifiers	5	2023.8	1.6
+303	physical activity	5	2022.6	93.4
+304	scopus	5	2022.2	40.6
+305	external validation	5	2024.4	29.6
+306	grammatical error correction	5	2024.8	13.2
+307	ai ethics in education	5	2024.2	13.2
+308	deep research agents	5	2025.6	9.0
+309	clinical research	5	2019.2	10.6
+310	fine-tuning	5	2025.0	9.4
+311	clinical decision-making	5	2021.0	9.8
+312	chatgpt-3.5	5	2024.2	10.6
+313	living systematic review	5	2022.6	6.2
+314	evidence mapping	5	2022.0	3.8
+315	citation patterns	5	2021.6	1.2
+316	ai-generated references	5	2024.2	13.2
+317	writing style	5	2025.6	1.2
+318	level of evidence	5	2022.0	15.0
+319	deepfakes	5	2025.0	20.8
+320	research duplication	5	2019.8	18.4
+321	biomedical journals	5	2018.8	11.4
+322	clinical trial registries	5	2020.2	7.0
+323	health equity	5	2025.0	3.2
+324	authorship criteria	5	2022.2	3.4
+325	bibliometric indicators	5	2022.6	1.8
+326	hallucination detection	5	2025.6	1.0
+327	grammatical accuracy	5	2026.0	0.8
+328	agentic ai	5	2025.8	0.4
+329	student perceptions of ai	5	2025.4	0.2
+330	neuroscience	5	2025.6	0.0

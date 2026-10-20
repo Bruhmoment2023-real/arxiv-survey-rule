@@ -1,0 +1,4 @@
+pre: alias-only eess.SY strict 268 vs CS strict 13503 (2.0% of CS strict); alias-only title-only (eess.SY or math.NA) 180 vs CS title-only 7517 (2.4%)
+post: alias-only eess.SY strict 123 vs CS strict 3291 (3.7% of CS strict); alias-only title-only (eess.SY or math.NA) 63 vs CS title-only 961 (6.6%)
+Nov24-Sep25: alias-only eess.SY strict 75 vs CS strict 4146 (1.8% of CS strict); alias-only title-only (eess.SY or math.NA) 47 vs CS title-only 2206 (2.1%)
+Nov25-Sep26: alias-only eess.SY strict 123 vs CS strict 3291 (3.7% of CS strict); alias-only title-only (eess.SY or math.NA) 63 vs CS title-only 961 (6.6%)

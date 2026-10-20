@@ -1,0 +1,18 @@
+Labelled papers found in days.jsonl.gz: 400 of 400
+  loses strict flag: L035 2507.10835 pre stratum=strict label=N | Functional Neural Wavefunction Optimization
+  loses strict flag: L076 2607.21005 post stratum=strict label=N | Weight-norm Criticality: A Mechanism for Loss Spikes Induced by the Normalizatio
+  loses strict flag: L198 2606.11189 post stratum=strict label=N | A Unifying Lens on Supervised Fine-Tuning Through Target Distribution Design
+  loses strict flag: L219 2606.10587 post stratum=strict label=N | Towards Diverse Scientific Hypothesis Search with Large Language Models
+  loses strict flag: L239 2602.18948 post stratum=strict label=N | Toward Manifest Relationality in Transformers via Symmetry Reduction
+  loses strict flag: L342 2604.02460 post stratum=strict label=N | Single-Agent LLMs Outperform Multi-Agent Systems on Multi-Hop Reasoning Under Eq
+  loses strict flag: L351 2601.22434 post stratum=strict label=P | Rethinking Anonymity Claims in Synthetic Data Generation: A Model-Centric Privac
+Strict false positives among labelled strict papers (label not S or P): 19
+  pre: v1.0 precision 43/50 = 0.860; variant 43/49 = 0.878
+  post: v1.0 precision 38/50 = 0.760; variant 37/44 = 0.841
+
+v1.0 recount matches monthly_series.csv in 57 of 57 months
+v1.0: strict CS pre-period 13503, post 3291; post share 2.00%
+  same-month ratio 0.609 (0.582-0.637); 4146/126289 = 3.28% before, 3291/164658 = 2.00% after
+without 'this perspective': strict CS pre-period 12975, post 2797; post share 1.70%
+  same-month ratio 0.543 (0.518-0.570); 3949/126289 = 3.13% before, 2797/164658 = 1.70% after
+Papers that lose the flag: pre-period 528, post 494

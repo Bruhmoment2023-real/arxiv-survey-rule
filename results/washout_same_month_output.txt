@@ -1,0 +1,15 @@
+Primary check (Nov 2025-Sep 2026 vs Nov 2024-Sep 2025): 0.609 (0.582-0.637); before 4146/126289 = 3.28%, after 3291/164658 = 2.00%
+Wash-out, symmetric (Dec 2025-Sep 2026 vs Dec 2024-Sep 2025): 0.609 (0.581-0.638); before 3843/116838 = 3.29%, after 3052/152464 = 2.00%
+Wash-out, asymmetric (Dec 2025-Sep 2026 vs Nov 2024-Sep 2025): 0.610 (0.582-0.639); before 4146/126289 = 3.28%, after 3052/152464 = 2.00%
+
+Pooled spill-over groups (no CS listing), strict share; denominator counts a paper in two groups twice
+Nov-Dec 2024: 77/2978 = 2.59% (Wilson 95% 2.07-3.22)
+Nov-Dec 2025: 143/3985 = 3.59% (Wilson 95% 3.05-4.21)
+Jan-Oct 2025: 490/17266 = 2.84% (Wilson 95% 2.60-3.10)
+Jan-Sep 2026: 494/19165 = 2.58% (Wilson 95% 2.36-2.81)
+  2024-11: 33/1507 = 2.19% (1.56-3.06)
+  2024-12: 44/1471 = 2.99% (2.24-3.99)
+  2025-10: 62/2037 = 3.04% (2.38-3.88)
+  2025-11: 68/2072 = 3.28% (2.60-4.14)
+  2025-12: 75/1913 = 3.92% (3.14-4.89)
+Spill-over same-month ratio, Nov-Dec 2025 vs Nov-Dec 2024: 1.388 (1.056-1.823); before 77/2978 = 2.59%, after 143/3985 = 3.59%

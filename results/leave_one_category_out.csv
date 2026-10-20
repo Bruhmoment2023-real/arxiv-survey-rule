@@ -1,0 +1,16 @@
+case,strict_Nov2024-Sep2025,strict_Nov2025-Sep2026,same_month_ratio
+all categories,4146,3291,0.609
+without cs.LG,3537,2829,0.613
+without cs.CL,3611,3009,0.639
+without cs.AI,3793,2854,0.577
+without cs.CV,3676,3045,0.635
+without cs.CR,3819,2988,0.600
+without cs.SE,3916,3058,0.599
+without cs.HC,3879,3127,0.618
+without cs.CY,3922,3107,0.608
+without cs.RO,4020,3140,0.599
+without cs.IR,4048,3233,0.613
+without cs.NI,4083,3227,0.606
+without cs.IT,4097,3234,0.605
+without cs.DC,4089,3253,0.610
+without eess.IV,4081,3271,0.615

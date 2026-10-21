@@ -14,7 +14,8 @@ On 31 October 2025 arXiv announced that review articles and position papers in i
 |---|---|
 | `code/` | Harvesters (arXiv API and OAI-PMH), parser, rule-based classifier (`classify.py`), labelling-sample generator, validation, net-coverage check, analysis (`analyze.py`), prior-work search scripts; `code/README.md` has the step table |
 | `data/` | `counts_core.json` (monthly totals per category group), `days.jsonl.gz` (parsed metadata of study-group papers on 57 sampled days), `sample_days.json` |
-| `data/labels/` | Blind labelling sheets, rubric (`RUBRIC.md`), hand labels (`labels.csv`), sample key and strata sizes |
+| `data/labels/` | Blind labelling sheets, rubric (`RUBRIC.md`), hand labels (`labels.csv`, first pass; `labels_checked.csv`, the same labels after the author's check, two changed), sample key and strata sizes |
+| `checks/` | The author's non-blind check of the 400 first-pass labels (`09-check-sheet.filled.xlsx`), the tally script and its output (`tally_output.txt`) |
 | `data/priorwork/` | Prior-work search hits and API response caches (Crossref, Semantic Scholar) |
 | `results/` | Result tables (`tables/`), figures (`figures/`), classifier validation, label disagreements, net coverage, analysis output, `RESULTS-SUMMARY.md` |
 | `logs/` | Harvest and count-run logs |
@@ -29,7 +30,7 @@ On 31 October 2025 arXiv announced that review articles and position papers in i
   2. `python code/parse.py days` and `python code/parse.py net`
   3. `python code/make_label_sample.py` (reproduces the same labelling sample)
   4. label the sheets with `data/labels/RUBRIC.md` (hand labels are in `data/labels/labels.csv`)
-  5. `python code/validate.py`, `python code/check_net.py`
+  5. `python code/validate.py`, `python code/check_net.py`; with the checked labels used in the paper: `python code/validate.py data/labels/labels_checked.csv` (writes `results/classifier_validation_checked.*`) and `python code/corrected_ratio.py data/labels/labels_checked.csv` (precision/recall-corrected same-month ratio; `results/corrected_ratio_checked_output.txt`)
   6. `python code/analyze.py` (writes `results/tables`, `results/figures`, `results/analysis_output.md`)
   7. `python code/leave_one_category_out.py` (standard library; reads `results/tables/`; writes `results/leave_one_category_out.csv`, the approximate leave-one-category-out same-month ratios)
   8. Sensitivity checks reported in the paper (saved outputs in `results/`): `python -I code/washout_same_month.py results/tables/monthly_series.csv` (wash-out row of Table 1 and Nov-Dec 2025 spill-over shares; `washout_same_month_output.txt`); `python -I code/alias_numerators.py <repo>` (strict-rule papers listed only under eess.SY or math.NA; `alias_numerators_output.txt`); `python -I code/no_this_perspective.py <repo>` (strict rule without the "this perspective" cue; `no_this_perspective_output.txt`). The last two read `data/net.jsonl.gz` (regenerate with steps 1-2).

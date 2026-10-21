@@ -3,6 +3,7 @@
 Inputs : data/labels/sample_key.csv, data/labels/labels.csv, data/labels/strata_sizes.json
 Outputs: results/classifier_validation.md, results/classifier_validation.json,
          results/label_disagreements.csv (false positives and false negatives of the strict rule)
+         With a labels file as argument (e.g. data/labels/labels_checked.csv) the outputs get the suffix "_checked".
 
 Positive class (main): label S or P.   Sensitivity: M also counted as positive.
 Precision: Wilson 95% interval within the sampled stratum.
@@ -31,9 +32,9 @@ def wilson(k, n, z=1.96):
     return p, max(0, c - h), min(1, c + h)
 
 
-def load():
+def load(labels=None):
     key = {r["key"]: r for r in csv.DictReader(open(os.path.join(L, "sample_key.csv"), encoding="utf-8"))}
-    for r in csv.DictReader(open(os.path.join(L, "labels.csv"), encoding="utf-8")):
+    for r in csv.DictReader(open(labels or os.path.join(L, "labels.csv"), encoding="utf-8")):
         key[r["key"]]["label"] = r["label"]
         key[r["key"]]["note"] = r["note"]
     sizes = json.load(open(os.path.join(L, "strata_sizes.json")))
@@ -79,9 +80,11 @@ def boot(rows, sizes, periods, pos, measure):
     return res, out
 
 
-def main():
-    rows, sizes = load()
+def main(labels=None, suffix=""):
+    rows, sizes = load(labels)
     md = ["# Classifier validation (rules v1.0 against 400 hand labels)", "",
+          (f"Labels: {os.path.basename(labels)} (first-pass labels after the author's non-blind check; see checks/). "
+           if labels else "") +
           "Labeller: AI assistant, first pass, blind to id, date, category and classifier output. "
           "A human second labeller is still needed (see 00-STATUS.md).", "",
           f"Population stratum sizes (CS papers on the 57 random days): `{json.dumps(sizes)}`", ""]
@@ -125,7 +128,7 @@ def main():
             sub = [r for r in rows if r["period"] == p and r["stratum"] == s]
             md.append(f"| {p} | {s} | {sum(r['label'] == 'S' for r in sub)} | {sum(r['label'] == 'P' for r in sub)} |")
     md.append("")
-    with open(os.path.join(RES, "label_disagreements.csv"), "w", newline="", encoding="utf-8") as f:
+    with open(os.path.join(RES, f"label_disagreements{suffix}.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["key", "id", "period", "stratum", "rules", "label", "type", "note"])
         for r in rows:
@@ -134,10 +137,16 @@ def main():
                 w.writerow([r["key"], r["id"], r["period"], r["stratum"], r["rules"], r["label"], "strict false positive", r["note"]])
             if r["stratum"] != "strict" and pos:
                 w.writerow([r["key"], r["id"], r["period"], r["stratum"], r["rules"], r["label"], "strict miss", r["note"]])
-    open(os.path.join(RES, "classifier_validation.md"), "w", encoding="utf-8").write("\n".join(md))
-    json.dump(js, open(os.path.join(RES, "classifier_validation.json"), "w"), indent=1)
+    open(os.path.join(RES, f"classifier_validation{suffix}.md"), "w", encoding="utf-8").write("\n".join(md))
+    json.dump(js, open(os.path.join(RES, f"classifier_validation{suffix}.json"), "w"), indent=1)
     print("\n".join(md))
 
 
 if __name__ == "__main__":
-    main()
+    # python code/validate.py                      -> first-pass labels (data/labels/labels.csv)
+    # python code/validate.py data/labels/labels_checked.csv  -> results/classifier_validation_checked.*
+    import sys
+    if len(sys.argv) > 1:
+        main(sys.argv[1], "_checked")
+    else:
+        main()

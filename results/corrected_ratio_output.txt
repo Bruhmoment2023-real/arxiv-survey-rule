@@ -1,0 +1,8 @@
+labels: data/labels/labels.csv
+strict precision pre 0.860, post 0.760; recall pre 0.534, post 0.454
+true prevalence pre 0.0517, post 0.0301; prevalence ratio 0.581
+correction factor 1.040; corrected ratio 0.634
+bootstrap draws used: 5000
+corrected ratio 95% interval: 0.30 to 1.30
+prevalence ratio 95% interval: 0.28 to 1.20
+share of draws with factor > 1: 51%

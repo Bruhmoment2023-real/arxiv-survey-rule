@@ -1,74 +1,81 @@
-Sheet: 09-check-sheet.filled.xlsx
-Not used: {'Core 120: ?': 3, 'Extra 280 (optional): ?': 5}
+Sheet: checks\09-check-sheet.filled.xlsx
+Not used: none
 
-=== Core 120 (30% of each stratum): 117 rows with a usable answer ===
-Agreement, 5 labels: 117/117 = 100.0% (exact 95% 96.9%-100.0%)
-Agreement, binary S/P vs not: 117/117 = 100.0% (exact 95% 96.9%-100.0%)
-Agreement, binary S/P/M vs not: 117/117 = 100.0% (exact 95% 96.9%-100.0%)
-Cohen's kappa, 5 labels: 1.000
-Cohen's kappa, binary S/P vs not: 1.000 (bootstrap 95% 1.000-1.000)
-Labels, first pass: {'N': 86, 'S': 25, 'P': 6}  Sean: {'N': 86, 'S': 25, 'P': 6}
-Disagreements (0), first pass -> Sean: none
-Disagreements by stratum: none
-Rows per stratum: {'strict|pre': 15, 'strict|post': 14, 'broad_only|pre': 11, 'broad_only|post': 11, 'neither|pre': 33, 'neither|post': 33}
+=== Core 120 (30% of each stratum): 120 rows with a usable answer ===
+Agreement, 5 labels: 118/120 = 98.3% (exact 95% 94.1%-99.8%)
+Agreement, binary S/P vs not: 119/120 = 99.2% (exact 95% 95.4%-100.0%)
+Agreement, binary S/P/M vs not: 118/120 = 98.3% (exact 95% 94.1%-99.8%)
+Cohen's kappa, 5 labels: 0.961
+Cohen's kappa, binary S/P vs not: 0.979 (bootstrap 95% 0.927-1.000)
+Labels, first pass: {'N': 87, 'S': 26, 'P': 7}  Sean: {'N': 87, 'S': 26, 'M': 1, 'P': 6}
+Disagreements (2), first pass -> Sean: {'N->M': 1, 'P->N': 1}
+Disagreements by stratum: {'broad_only|pre': 1, 'broad_only|post': 1}
+   L157 2409.18836 broad_only|pre N->M  The paper does both jobs at scale: about 15 pages of unified review of existing methods and about 13 pages of new benchmark results. That clears the threshold easily. It is not a plain benchmark (N) because the review of existing methods is a stated co-contribution. Threshold used on all rows: new experiments count as 'substantial' only if they are a stated main contribution, get their own results section, are run by the authors over several tasks or datasets and produce new comparative findings
+   L051 2607.21503 broad_only|post P->N  It argues a framing, then presents the authors' own system and evaluates it on two public benchmarks in a dedicated evaluation section. That matches rule 3 exactly. N, not P.
+Rows per stratum: {'strict|pre': 15, 'strict|post': 15, 'broad_only|pre': 12, 'broad_only|post': 12, 'neither|pre': 33, 'neither|post': 33}
 Note: recall leans on the 'neither' strata (97% of the stratum weight), where positives are rare; on the core alone it is noisy. Compare first pass vs Sean on the SAME rows; the paper's recall uses all 400.
 
 Strict rule, positive = main S/P (stratum-weighted; bootstrap 5000, 95%)
 labels     period  precision                 recall                    
-first pass pre     0.933 (0.800-1.000)      0.430 (0.224-0.849)
-first pass post    0.786 (0.571-1.000)      0.798 (0.545-1.000)
-first pass pooled  0.909 (0.786-0.988)      0.460 (0.251-0.859)
-first pass recall post minus pre: +0.368 (-0.160 to +0.734); fall > 10 points? no
-Sean       pre     0.933 (0.800-1.000)      0.430 (0.222-0.849)
-Sean       post    0.786 (0.571-1.000)      0.798 (0.545-1.000)
-Sean       pooled  0.909 (0.774-0.988)      0.460 (0.249-0.865)
-Sean       recall post minus pre: +0.368 (-0.172 to +0.750); fall > 10 points? no
+first pass pre     0.933 (0.800-1.000)      0.436 (0.221-0.860)
+first pass post    0.800 (0.600-1.000)      0.687 (0.468-1.000)
+first pass pooled  0.911 (0.789-0.989)      0.460 (0.248-0.846)
+first pass recall post minus pre: +0.252 (-0.274 to +0.668); fall > 10 points? no
+Sean       pre     0.933 (0.800-1.000)      0.436 (0.221-0.860)
+Sean       post    0.800 (0.600-1.000)      0.815 (0.573-1.000)
+Sean       pooled  0.911 (0.778-0.989)      0.467 (0.247-0.872)
+Sean       recall post minus pre: +0.379 (-0.153 to +0.748); fall > 10 points? no
 
 Strict rule, positive = sensitivity S/P/M (stratum-weighted; bootstrap 5000, 95%)
 labels     period  precision                 recall                    
-first pass pre     0.933 (0.800-1.000)      0.430 (0.227-0.849)
-first pass post    0.786 (0.571-1.000)      0.798 (0.545-1.000)
-first pass pooled  0.909 (0.774-0.988)      0.460 (0.253-0.859)
-first pass recall post minus pre: +0.368 (-0.159 to +0.749); fall > 10 points? no
-Sean       pre     0.933 (0.800-1.000)      0.430 (0.224-0.849)
-Sean       post    0.786 (0.571-1.000)      0.798 (0.545-1.000)
-Sean       pooled  0.909 (0.774-0.988)      0.460 (0.249-0.859)
-Sean       recall post minus pre: +0.368 (-0.172 to +0.746); fall > 10 points? no
+first pass pre     0.933 (0.800-1.000)      0.436 (0.225-0.860)
+first pass post    0.800 (0.600-1.000)      0.687 (0.452-1.000)
+first pass pooled  0.911 (0.778-0.989)      0.460 (0.245-0.852)
+first pass recall post minus pre: +0.252 (-0.264 to +0.674); fall > 10 points? no
+Sean       pre     0.933 (0.800-1.000)      0.420 (0.225-0.842)
+Sean       post    0.800 (0.600-1.000)      0.815 (0.573-1.000)
+Sean       pooled  0.911 (0.778-0.989)      0.452 (0.251-0.826)
+Sean       recall post minus pre: +0.395 (-0.112 to +0.738); fall > 10 points? no
 
-=== All checked rows (WARNING: Extra 280 only partly done; strata are then sampled unevenly, which the stratum weights still handle, but any row-picking by Sean is not random): 392 rows with a usable answer ===
-Agreement, 5 labels: 390/392 = 99.5% (exact 95% 98.2%-99.9%)
-Agreement, binary S/P vs not: 390/392 = 99.5% (exact 95% 98.2%-99.9%)
-Agreement, binary S/P/M vs not: 391/392 = 99.7% (exact 95% 98.6%-100.0%)
-Cohen's kappa, 5 labels: 0.988
-Cohen's kappa, binary S/P vs not: 0.986 (bootstrap 95% 0.965-1.000)
-Labels, first pass: {'N': 291, 'S': 75, 'P': 22, 'M': 3, 'U': 1}  Sean: {'N': 290, 'S': 76, 'P': 23, 'M': 2, 'U': 1}
-Disagreements (2), first pass -> Sean: {'N->P': 1, 'M->S': 1}
-Disagreements by stratum: {'neither|pre': 1, 'strict|post': 1}
-   L243 2409.01283 neither|pre N->P  Short conceptual proposal of a design process, no results and no literature synthesis (tie-break 7); borderline
+=== All checked rows: 400 rows with a usable answer ===
+Agreement, 5 labels: 393/400 = 98.2% (exact 95% 96.4%-99.3%)
+Agreement, binary S/P vs not: 394/400 = 98.5% (exact 95% 96.8%-99.4%)
+Agreement, binary S/P/M vs not: 395/400 = 98.8% (exact 95% 97.1%-99.6%)
+Cohen's kappa, 5 labels: 0.958
+Cohen's kappa, binary S/P vs not: 0.961 (bootstrap 95% 0.925-0.987)
+Labels, first pass: {'N': 294, 'S': 78, 'P': 23, 'M': 3, 'U': 2}  Sean: {'N': 292, 'S': 80, 'M': 4, 'P': 23, 'U': 1}
+Disagreements (7), first pass -> Sean: {'N->M': 1, 'P->N': 1, 'S->M': 1, 'N->P': 1, 'U->S': 1, 'N->S': 1, 'M->S': 1}
+Disagreements by stratum: {'broad_only|pre': 2, 'broad_only|post': 1, 'strict|pre': 1, 'neither|post': 1, 'neither|pre': 1, 'strict|post': 1}
+   L157 2409.18836 broad_only|pre N->M  The paper does both jobs at scale: about 15 pages of unified review of existing methods and about 13 pages of new benchmark results. That clears the threshold easily. It is not a plain benchmark (N) because the review of existing methods is a stated co-contribution. Threshold used on all rows: new experiments count as 'substantial' only if they are a stated main contribution, get their own results section, are run by the authors over several tasks or datasets and produce new comparative findings
+   L051 2607.21503 broad_only|post P->N  It argues a framing, then presents the authors' own system and evaluates it on two public benchmarks in a dedicated evaluation section. That matches rule 3 exactly. N, not P.
+   L240 2506.04619 strict|pre S->M  The main job is a survey and taxonomy, but the authors also ran a new multi-task benchmark: a dedicated section of about 29% of the body, with new results. These are not numbers copied from the original papers. Under the threshold this is substantial, so M rather than S. This is the same standard that makes Core 13 M.
+   L221 2511.13253 neither|post N->P  This is a vision or concept paper for an architecture class: use cases, design considerations, deployment models, challenges and comparison tables. There is no implementation or evaluation of its own, so it is not an N system paper. It is not mainly a literature synthesis either, since related work and prior-work numbers only support the concept. Rule 7 gives P. Borderline; S would also count as positive under rule 8.
+   L242 2211.14667 broad_only|pre U->S  The full text resolves the uncertainty, so U is wrong. The largest part is a review of existing detection work. The proposed architecture is conceptual, has no results and is presented as 'a technical guide'. That makes it a challenges-and-opportunities review with a roadmap. S (P would also be acceptable under rule 8). Not N or M, because there are no new experiments.
+   L377 2510.14914 neither|pre N->S  The main contribution is a design space (taxonomy) synthesised from a structured review of existing kits and research, about two-thirds of the body. The authors' kits are short illustrative examples with no formal evaluation, so they are not a 'new system with evaluation' (M), and the review is not mere motivation (rule 2). S by main job. Borderline, because HCI design-space papers are often treated as N, but under this codebook a taxonomy built from the literature is S.
    L009 2609.10099 strict|post M->S  Despite the title, it is a review: compares REPORTED performance of 82 methods across benchmarks, no new experiments, so S not M
-Rows per stratum: {'strict|pre': 49, 'strict|post': 48, 'broad_only|pre': 37, 'broad_only|post': 39, 'neither|pre': 109, 'neither|post': 110}
+Rows per stratum: {'strict|pre': 50, 'strict|post': 50, 'broad_only|pre': 40, 'broad_only|post': 40, 'neither|pre': 110, 'neither|post': 110}
 Note: recall leans on the 'neither' strata (97% of the stratum weight), where positives are rare; on the core alone it is noisy. Compare first pass vs Sean on the SAME rows; the paper's recall uses all 400.
 
 Strict rule, positive = main S/P (stratum-weighted; bootstrap 5000, 95%)
 labels     period  precision                 recall                    
-first pass pre     0.857 (0.755-0.939)      0.526 (0.341-0.830)
-first pass post    0.750 (0.625-0.875)      0.463 (0.268-0.788)
-first pass pooled  0.839 (0.751-0.918)      0.516 (0.352-0.765)
-first pass recall post minus pre: -0.063 (-0.436 to +0.325); fall > 10 points? no
-Sean       pre     0.857 (0.755-0.939)      0.452 (0.295-0.777)
-Sean       post    0.771 (0.646-0.875)      0.470 (0.274-0.799)
-Sean       pooled  0.843 (0.751-0.921)      0.455 (0.310-0.706)
-Sean       recall post minus pre: +0.018 (-0.343 to +0.387); fall > 10 points? no
+first pass pre     0.860 (0.760-0.960)      0.534 (0.344-0.838)
+first pass post    0.760 (0.640-0.880)      0.454 (0.267-0.762)
+first pass pooled  0.843 (0.757-0.923)      0.521 (0.357-0.771)
+first pass recall post minus pre: -0.080 (-0.454 to +0.295); fall > 10 points? no
+Sean       pre     0.840 (0.740-0.940)      0.447 (0.288-0.767)
+Sean       post    0.780 (0.660-0.880)      0.368 (0.208-0.746)
+Sean       pooled  0.830 (0.740-0.914)      0.433 (0.293-0.668)
+Sean       recall post minus pre: -0.079 (-0.416 to +0.326); fall > 10 points? no
 
 Strict rule, positive = sensitivity S/P/M (stratum-weighted; bootstrap 5000, 95%)
 labels     period  precision                 recall                    
-first pass pre     0.857 (0.755-0.939)      0.526 (0.341-0.833)
-first pass post    0.812 (0.688-0.917)      0.483 (0.281-0.792)
-first pass pooled  0.850 (0.758-0.928)      0.519 (0.357-0.771)
-first pass recall post minus pre: -0.043 (-0.412 to +0.336); fall > 10 points? no
-Sean       pre     0.857 (0.755-0.939)      0.452 (0.289-0.783)
-Sean       post    0.812 (0.688-0.917)      0.483 (0.279-0.804)
-Sean       pooled  0.850 (0.761-0.925)      0.457 (0.309-0.714)
-Sean       recall post minus pre: +0.031 (-0.342 to +0.412); fall > 10 points? no
+first pass pre     0.860 (0.760-0.940)      0.534 (0.350-0.838)
+first pass post    0.820 (0.700-0.920)      0.473 (0.282-0.771)
+first pass pooled  0.853 (0.763-0.930)      0.524 (0.362-0.773)
+first pass recall post minus pre: -0.062 (-0.430 to +0.310); fall > 10 points? no
+Sean       pre     0.860 (0.760-0.940)      0.447 (0.291-0.767)
+Sean       post    0.820 (0.700-0.920)      0.380 (0.223-0.755)
+Sean       pooled  0.853 (0.770-0.930)      0.435 (0.299-0.677)
+Sean       recall post minus pre: -0.067 (-0.399 to +0.335); fall > 10 points? no
 
 Describe this as a non-blind author check of the first-pass labels, not a blind second labeller.

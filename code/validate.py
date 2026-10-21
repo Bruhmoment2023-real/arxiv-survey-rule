@@ -86,7 +86,9 @@ def main(labels=None, suffix=""):
           (f"Labels: {os.path.basename(labels)} (first-pass labels after the author's non-blind check; see checks/). "
            if labels else "") +
           "Labeller: AI assistant, first pass, blind to id, date, category and classifier output. "
-          "A human second labeller is still needed (see 00-STATUS.md).", "",
+          + ("All 400 labels were then checked against the full text with the first-pass label visible (non-blind); "
+           "data/labels/label_changes_checked.csv lists the changes." if labels else
+           "These are the first-pass labels; the checked labels are data/labels/labels_checked.csv."), "",
           f"Population stratum sizes (CS papers on the 57 random days): `{json.dumps(sizes)}`", ""]
     js = {}
     for posname, pos in (("main: S or P", ("S", "P")), ("sensitivity: S, P or M", ("S", "P", "M"))):

@@ -1,6 +1,6 @@
 # Classifier validation (rules v1.0 against 400 hand labels)
 
-Labeller: AI assistant, first pass, blind to id, date, category and classifier output. A human second labeller is still needed (see 00-STATUS.md).
+Labeller: AI assistant, first pass, blind to id, date, category and classifier output. These are the first-pass labels; the checked labels are data/labels/labels_checked.csv.
 
 Population stratum sizes (CS papers on the 57 random days): `{"strict|pre": 469, "strict|post": 93, "broad_only|pre": 457, "broad_only|post": 203, "neither|pre": 13672, "neither|post": 4885}`
 

@@ -5,7 +5,6 @@ L021,2306.10687,pre,neither,,S,strict miss,
 L035,2507.10835,pre,strict,A_position+A_weak,N,strict false positive,
 L047,2606.10749,post,broad_only,A_weak,S,strict miss,survey/SoK of LLM-agent security that also 'argues'; S
 L050,2608.08106,post,strict,T_survey,N,strict false positive,
-L051,2607.21503,post,broad_only,A_weak,P,strict miss,industry-style argument paper; borderline P vs N
 L059,2401.14831,pre,broad_only,A_weak,P,strict miss,"argues for a testing view, then sketches an approach; borderline P vs N"
 L061,2601.23112,post,broad_only,T_weak+A_weak,S,strict miss,review of 210 benchmarks that also argues; S
 L076,2607.21005,post,strict,A_position+A_weak,N,strict false positive,
@@ -22,8 +21,10 @@ L198,2606.11189,post,strict,A_position+A_weak,N,strict false positive,
 L204,2202.12194,pre,broad_only,T_weak,P,strict miss,industrial viewpoint / vision article; P
 L208,2209.06804,pre,strict,T_survey+A_weak,N,strict false positive,
 L219,2606.10587,post,strict,A_position+A_weak,N,strict false positive,
+L221,2511.13253,post,neither,,P,strict miss,author check: N->P
 L239,2602.18948,post,strict,A_position+A_weak,N,strict false positive,
-L243,2409.01283,pre,neither,,P,strict miss,"short proposal of a design process; kept N; author check: N->P; short conceptual proposal of a design process, no results and no literature synthesis (tie-break 7); borderline"
+L240,2506.04619,pre,strict,T_survey+A_self,M,strict false positive,author check: S->M
+L242,2211.14667,pre,broad_only,T_weak,S,strict miss,reads like a project proposal; cannot tell; author check: U->S
 L255,2605.16872,post,broad_only,T_weak,P,strict miss,
 L265,2303.05344,pre,broad_only,T_weak,S,strict miss,
 L270,2205.14040,pre,broad_only,T_weak,S,strict miss,"magazine-style overview (lessons learned, opportunities); S"
@@ -38,3 +39,4 @@ L361,2601.22708,post,strict,A_self+T_weak,M,strict false positive,taxonomy + rev
 L364,2211.14558,pre,strict,A_self,N,strict false positive,'we review ... using our benchmark' = evaluation; N
 L373,2606.11116,post,broad_only,T_weak,P,strict miss,argument built on an existing experiment; P
 L374,2305.15535,pre,broad_only,A_weak,S,strict miss,overview that derives research desiderata; S
+L377,2510.14914,pre,neither,,S,strict miss,author check: N->S

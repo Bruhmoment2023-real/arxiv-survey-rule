@@ -40,6 +40,6 @@ Known problems: 58 records lack abstracts; 867 of 1,483 have reference lists; on
 
 ## C. Missing or not inventoried
 - Any `followup\` folder, new documents or other files created by the agent rebuilding this pack after 17 Oct 2026 are not listed here.
-- The hand labels have no second labeller; the status file marks this as a condition before submission.
+- All 400 first-pass hand labels were checked a second time against the full text, with the first-pass label visible (non-blind): 393 of 400 kept; the seven changes are in `labels_checked.csv` and `label_changes_checked.csv`.
 - No Moderator-rejection data, no other preprint servers' data (SSRN, TechRxiv, OpenReview, Preprints.org, Zenodo), as stated in `results\RESULTS-SUMMARY.md`.
 - `data\priorwork\pdf` contents were not itemised here.

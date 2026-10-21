@@ -7,7 +7,7 @@ L005,S,AI-assistant-pass1,
 L006,N,AI-assistant-pass1,
 L007,N,AI-assistant-pass1,
 L008,S,AI-assistant-pass1,overview of normalizing-flow variants; no 'survey' word in excerpt
-L009,S,AI-assistant-pass1; author check,"systematic evaluation + review repo; benchmark results -> mixed; author check: M->S; compares reported performance of 82 methods across benchmarks, no new experiments, so S not M"
+L009,S,AI-assistant-pass1; author check,systematic evaluation + review repo; benchmark results -> mixed; author check: M->S
 L010,P,AI-assistant-pass1,conceptual/normative proposal with use-cases; borderline P vs N
 L011,N,AI-assistant-pass1,
 L012,N,AI-assistant-pass1,
@@ -49,7 +49,7 @@ L047,S,AI-assistant-pass1,survey/SoK of LLM-agent security that also 'argues'; S
 L048,N,AI-assistant-pass1,
 L049,N,AI-assistant-pass1,
 L050,N,AI-assistant-pass1,
-L051,P,AI-assistant-pass1,industry-style argument paper; borderline P vs N
+L051,N,AI-assistant-pass1; author check,industry-style argument paper; borderline P vs N; author check: P->N
 L052,S,AI-assistant-pass1,
 L053,N,AI-assistant-pass1,
 L054,S,AI-assistant-pass1,SLR plus a proposed framework; S
@@ -155,7 +155,7 @@ L153,N,AI-assistant-pass1,
 L154,N,AI-assistant-pass1,
 L155,N,AI-assistant-pass1,
 L156,N,AI-assistant-pass1,
-L157,N,AI-assistant-pass1,
+L157,M,AI-assistant-pass1; author check,author check: N->M
 L158,N,AI-assistant-pass1,
 L159,N,AI-assistant-pass1,
 L160,N,AI-assistant-pass1,
@@ -219,7 +219,7 @@ L217,S,AI-assistant-pass1,
 L218,N,AI-assistant-pass1,
 L219,N,AI-assistant-pass1,
 L220,N,AI-assistant-pass1,
-L221,N,AI-assistant-pass1,
+L221,P,AI-assistant-pass1; author check,author check: N->P
 L222,N,AI-assistant-pass1,
 L223,N,AI-assistant-pass1,
 L224,N,AI-assistant-pass1,
@@ -238,10 +238,10 @@ L236,N,AI-assistant-pass1,
 L237,N,AI-assistant-pass1,
 L238,N,AI-assistant-pass1,
 L239,N,AI-assistant-pass1,
-L240,S,AI-assistant-pass1,
+L240,M,AI-assistant-pass1; author check,author check: S->M
 L241,N,AI-assistant-pass1,
-L242,U,AI-assistant-pass1,reads like a project proposal; cannot tell
-L243,P,AI-assistant-pass1; author check,"short proposal of a design process; kept N; author check: N->P; short conceptual proposal of a design process, no results and no literature synthesis (tie-break 7); borderline"
+L242,S,AI-assistant-pass1; author check,reads like a project proposal; cannot tell; author check: U->S
+L243,N,AI-assistant-pass1,short proposal of a design process; kept N
 L244,N,AI-assistant-pass1,
 L245,N,AI-assistant-pass1,
 L246,N,AI-assistant-pass1,
@@ -375,7 +375,7 @@ L373,P,AI-assistant-pass1,argument built on an existing experiment; P
 L374,S,AI-assistant-pass1,overview that derives research desiderata; S
 L375,N,AI-assistant-pass1,philosophical conceptual-modelling paper; kept N
 L376,N,AI-assistant-pass1,
-L377,N,AI-assistant-pass1,
+L377,S,AI-assistant-pass1; author check,author check: N->S
 L378,N,AI-assistant-pass1,
 L379,N,AI-assistant-pass1,
 L380,N,AI-assistant-pass1,

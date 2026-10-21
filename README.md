@@ -14,8 +14,8 @@ On 31 October 2025 arXiv announced that review articles and position papers in i
 |---|---|
 | `code/` | Harvesters (arXiv API and OAI-PMH), parser, rule-based classifier (`classify.py`), labelling-sample generator, validation, net-coverage check, analysis (`analyze.py`), prior-work search scripts; `code/README.md` has the step table |
 | `data/` | `counts_core.json` (monthly totals per category group), `days.jsonl.gz` (parsed metadata of study-group papers on 57 sampled days), `sample_days.json` |
-| `data/labels/` | Blind labelling sheets, rubric (`RUBRIC.md`), hand labels (`labels.csv`, first pass; `labels_checked.csv`, the same labels after the author's check, two changed), sample key and strata sizes |
-| `checks/` | The author's non-blind check of the 400 first-pass labels (`09-check-sheet.filled.xlsx`), the tally script and its output (`tally_output.txt`) |
+| `data/labels/` | Blind labelling sheets, rubric (`RUBRIC.md`), hand labels (`labels.csv`, first pass; `labels_checked.csv`, the same labels after the author's check, seven changed; `label_changes_checked.csv`, each change and its reason), sample key and strata sizes |
+| `checks/` | The author's non-blind check of the 400 first-pass labels (`09-check-sheet.filled.xlsx`), the tally script and its output (`tally_output.txt`), and `make_checked_labels.py`, which builds the checked labels and change log from the sheet |
 | `data/priorwork/` | Prior-work search hits and API response caches (Crossref, Semantic Scholar) |
 | `results/` | Result tables (`tables/`), figures (`figures/`), classifier validation, label disagreements, net coverage, analysis output, `RESULTS-SUMMARY.md` |
 | `logs/` | Harvest and count-run logs |

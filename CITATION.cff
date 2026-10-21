@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
 title: "Survey and position papers in arXiv computer science after the 2025 review rule: an interrupted time series (code and data)"
+doi: 10.5281/zenodo.23537739
 type: software
 authors:
   - family-names: "Solano Paul"

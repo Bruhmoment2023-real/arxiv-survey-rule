@@ -1,5 +1,7 @@
 # Survey and position papers in arXiv computer science after the 2025 review rule: an interrupted time series
 
+Archived on Zenodo: https://doi.org/10.5281/zenodo.23537739 (this DOI always points to the latest version).
+
 Sean Solano Paul, Independent researcher, Bengaluru, India. Funding: none. Competing interests: none.
 
 ## Summary

@@ -1,8 +1,21 @@
 {
   "title": "Survey and position papers in arXiv computer science after the 2025 review rule: an interrupted time series (code and data)",
   "upload_type": "software",
-  "creators": [{"name": "Solano Paul, Sean", "affiliation": "Independent researcher"}],
+  "creators": [
+    {
+      "name": "Solano Paul, Sean",
+      "affiliation": "Independent researcher",
+      "orcid": "0009-0002-8465-4468"
+    }
+  ],
   "license": "MIT",
   "description": "Code, derived data, hand labels, results and figures for an interrupted time series of the monthly share of arXiv computer science papers that describe themselves as surveys, reviews or position papers, before and after arXiv's October 2025 rule on review articles and position papers. Large raw harvests are not included and can be regenerated with the included harvesters.",
-  "keywords": ["arXiv", "preprints", "survey papers", "position papers", "moderation policy", "interrupted time series"]
+  "keywords": [
+    "arXiv",
+    "preprints",
+    "survey papers",
+    "position papers",
+    "moderation policy",
+    "interrupted time series"
+  ]
 }
